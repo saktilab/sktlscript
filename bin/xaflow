@@ -1,0 +1,80 @@
+#!/usr/bin/make -f
+
+#user-definable paths
+AWD:=$(HOME)/src/AFLOW
+ULB:=$(HOME)/bin
+#flags
+SAVE_AFLOW_OLD=false
+SAVE_AFLOWRC=true
+SAVE_AFLOW_VERSIONS=false
+NCPUS=4
+
+#system variables
+UNAME=$(shell uname)
+USER=$(shell whoami)
+HOSTNAME=$(shell hostname)
+NOW=$(shell date '+%y%m%d-%H%M')
+
+#standard paths
+AFLOW_TAR:=aflow3.tar.xz
+
+#always rebuild aflow
+.PHONY: $(AWD)/aflow install
+
+all: $(AWD)/aflow
+
+$(AWD)/aflow:
+	rm -rf $(AWD)_OLD
+ifeq ($(SAVE_AFLOW_OLD),true)
+	if [ -d $(AWD) ]; then $(MAKE) -C $(AWD) realclean; fi
+	if [ -d $(AWD) ]; then mv $(AWD) $(AWD)_OLD; fi
+else
+	rm -rf $(AWD)
+endif
+	@echo "New source directory = $(AWD)"
+	mkdir -p $(AWD)
+	cd $(AWD) && wget http://nietzsche.mems.duke.edu/auro/$(AFLOW_TAR)
+	cd $(AWD) && tar Jxfvp $(AFLOW_TAR)
+	cd $(AWD) && rm -f $(AFLOW_TAR)
+	$(MAKE) -C $(AWD) -j $(NCPUS)
+############################################
+ifeq ($(HOSTNAME),$(filter $(HOSTNAME),qrats.materials.duke.edu quser))
+	$(MAKE) -C $(AWD) static
+endif
+############################################
+	$(AWD)/aflow -v
+	find $(AWD) -name '*.o' -delete
+	-$(MAKE) -C $(AWD) clean_autogen
+	@echo "DONE compiling!  Check here for locally compiled AFLOW:  $(AWD)"
+
+install:
+	[ -e $(AWD)/aflow ]
+	-[ -e $(AWD)/aflow_data ]
+ifeq ($(SAVE_AFLOWRC),true)
+	if [ -e $(HOME)/.aflow.rc ]; then mv $(HOME)/.aflow.rc $(HOME)/.aflow.rc_$(NOW); fi
+else
+	rm -f $(HOME)/.aflow.rc
+endif
+	mkdir -p $(ULB)
+	rm -f $(ULB)/aflow
+ifeq ($(SAVE_AFLOW_VERSIONS),true)
+	$(eval VERSION:=$(shell $(AWD)/aflow --version | grep 'Automatic-FLOW' | grep -oE '([0-9]\.[0-9]\.\w+)'))
+	cp -f $(AWD)/aflow $(ULB)/aflow$(VERSION)
+	cd $(ULB) && chmod 555 aflow$(VERSION) 
+	cd $(ULB) && ln -sf aflow$(VERSION) aflow
+else
+	cp -f $(AWD)/aflow $(ULB)/aflow
+	cd $(ULB) && chmod 555 aflow
+endif
+	cd $(ULB) && rm -f aconvasp
+	cd $(ULB) && ln -sf aflow aconvasp
+	cd $(ULB) && rm -f apennsy
+	cd $(ULB) && ln -sf aflow apennsy
+	cd $(ULB) && rm -f aflowd
+	cd $(ULB) && ln -sf aflow aflowd
+	if [ -e $(AWD)/aflow_data ]; then rm -f $(ULB)/aflow_data; fi
+	if [ -e $(AWD)/aflow_data ]; then cp -f $(AWD)/aflow_data $(ULB)/aflow_data; fi
+	if [ -e $(AWD)/aflow_data ]; then rm -f $(AWD)/aflow_data; fi
+	cd $(ULB) && if [ -e aflow_data ]; then chmod 555 aflow_data; fi
+	$(ULB)/aflow -v
+	@echo "DONE installing! Add this to your PATH:  $(ULB)"

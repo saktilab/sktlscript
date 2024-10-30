@@ -1,0 +1,91 @@
+Geometry = GenFormat {
+1 C
+Rh
+1 1 0.0 0.0 0.0
+}
+Hamiltonian = DFTB {
+  SCC = Yes
+  OrbitalResolvedSCC = Yes
+  ThirdOrderFull = Yes
+  SpinPolarisation = Colinear {
+    UnpairedElectrons = 3.0
+    RelaxTotalSpin = No
+    InitialSpins = {}
+  }
+  DampXH = Yes
+  DampXHExponent = 4
+  HubbardDerivs = {
+    Rh = {
+-0.05843884 -0.21524590 -0.10568167
+    }
+  }
+  SCCTolerance = 1.000000000e-12
+  SpinConstants = {
+    Rh = {
+-0.01345331, -0.01065972, -0.00426036,
+-0.01065972, -0.03680728, -0.00137666,
+-0.00426036, -0.00137666, -0.01161854
+    }
+  }
+  MaxAngularMomentum = {
+    Rh = "d"
+  }
+  SlaterKosterFiles = {
+    Rh-Rh = Rh-Rh.skf
+  }
+  PolynomialRepulsive = {}
+  OldSKInterpolation = No
+  ReadInitialCharges = No
+  InitialCharges = {}
+  Mixer = Broyden {
+    MixingParameter = 0.200000000000000
+    InverseJacobiWeight = 1.000000000000000E-002
+    MinimalWeight = 1.00000000000000
+    MaximalWeight = 100000.000000000
+    WeightFactor = 1.000000000000000E-002
+  }
+  ElectricField = {}
+  Eigensolver = RelativelyRobust {}
+  Filling = Fermi {
+    Temperature = 0.00000000000000
+  }
+  Charge = 0.00000000000000
+  MaxSCCIterations = 100
+  Dispersion = {}
+  ThirdOrder = No
+  Differentiation = FiniteDiff {
+    Delta = 1.220703125000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+ParserOptions = {
+  ParserVersion = 5
+  IgnoreUnprocessedNodes = Yes
+  WriteHSDInput = Yes
+  WriteXMLInput = No
+  StopAfterParsing = No
+}
+Driver = {}
+ExcitedState = {}
+Analysis = {
+  ProjectStates = {}
+  MullikenAnalysis = Yes
+  AtomResolvedEnergies = No
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  CalculateForces = No
+}
+Options = {
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteResultsTag = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 0
+  WriteChargesAsText = No
+}

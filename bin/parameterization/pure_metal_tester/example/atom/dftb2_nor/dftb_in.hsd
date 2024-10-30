@@ -1,0 +1,46 @@
+Geometry = GenFormat{
+1 C
+Rh
+1 1 0.0 0.0 0.0
+}
+
+Hamiltonian = DFTB {
+  SCC = Yes
+  OrbitalResolvedSCC = Yes
+  ThirdOrderFull = Yes
+  SpinPolarisation = Colinear {
+    UnpairedElectrons = 3.0
+  }
+  DampXH = Yes
+  DampXHExponent = 4
+  ThirdOrderFull = Yes
+  HubbardDerivs = {
+    C = -0.1492 -0.1492
+    H = -0.1857 
+    N = -0.1535 -0.1535
+    O = -0.1575 -0.1575
+    Rh = -0.05843884 -0.21524590 -0.10568167
+  }
+  SCCTolerance = 1.000000000e-12
+  SpinConstants = {
+#    ShellResolvedSpin = Yes
+    Rh = {
+        -0.01345331, -0.01065972, -0.00426036,
+        -0.01065972, -0.03680728, -0.00137666,
+        -0.00426036, -0.00137666, -0.01161854
+    }
+  }
+  MaxAngularMomentum = {
+    Rh = "d"
+  }
+  SlaterKosterFiles = {
+    Rh-Rh = Rh-Rh.skf
+  }
+}
+
+ParserOptions {
+  ParserVersion = 5
+  IgnoreUnprocessedNodes = Yes
+}
+
+

@@ -1,0 +1,13 @@
+Hamiltonian = DFTB {
+  SCC = Yes
+  SCCTolerance = 1.0E-8
+  MaxAngularMomentum = {
+    Rh = "d"
+  }
+  Filling = Fermi{
+    Temperature[K] = 30.0
+  }
+}
+
+
+

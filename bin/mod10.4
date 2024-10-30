@@ -1,0 +1,45 @@
+#!/bin/sh
+
+# program name:
+PROGRAM=mod
+VERSION=10.4
+
+# Install location
+MODINSTALL10v4=/opt/homebrew/Cellar/modeller/10.4_2
+export MODINSTALL10v4
+
+EXECUTABLE_TYPE=mac10v4
+
+# select the nice level:
+NICE=
+# NICE=nice -20
+
+# executable:
+EXECUTABLE=${PROGRAM}${VERSION}_${EXECUTABLE_TYPE}
+
+# dynamic libraries (uncomment if installed in non-standard location):
+#DYLD_LIBRARY_PATH=${MODINSTALL10v4}/lib/${EXECUTABLE_TYPE}
+#export DYLD_LIBRARY_PATH
+
+# to avoid running out of stack space, use the current hard limit
+# (ask your sysadmin to increase the hard limit if this is not enough)
+ulimit -S -s `ulimit -H -s`
+
+# Make sure that we use Apple's Python libraries (not those of another,
+# possibly incompatible, Python on the system such as Homebrew)
+export PYTHONHOME=/System/Library/Frameworks/Python.framework/Versions/2.6
+
+export PYTHONPATH=/opt/homebrew/Cellar/modeller/10.4_2/lib/python3.10/site-packages
+
+#run the program:
+if [ -d ${PYTHONHOME} ]; then
+  exec $NICE ${MODINSTALL10v4}/modbin/${EXECUTABLE} $*
+else
+  # On macOS 12.3 or later, which no longer has Python 2, use our bundled copy
+  if [ -z "${PYTHONPATH}" ]; then
+    export PYTHONPATH=${MODINSTALL10v4}/py2_compat
+  else
+    export PYTHONPATH=$PYTHONPATH:${MODINSTALL10v4}/py2_compat
+  fi
+  exec $NICE ${MODINSTALL10v4}/py2_compat/${EXECUTABLE} $*
+fi

@@ -1,0 +1,5685 @@
+{
+    "atomic_energy": {
+        "C": -1.44397274,
+        "H": -0.27966183,
+        "N": -2.21694954,
+        "O": -3.1419677
+    },
+    "electronic_slater_koster_files": {
+        "lowercase": false,
+        "max_angular_momentum": {
+            "C": "p",
+            "H": "s",
+            "N": "p",
+            "O": "p"
+        },
+        "prefix": "/home/sol/work/data/pyerepfit/3ob/elec_sk_elec/",
+        "separator": "-",
+        "suffix": ".skf",
+        "type2filenames": true
+    },
+    "equations": {
+        "additional": {
+            "C-C": [
+                {
+                    "derivative": 2,
+                    "distance": 1.33,
+                    "unit": "aa",
+                    "value": 0.92,
+                    "weight": 1.0
+                }
+            ],
+            "C-H": [
+                {
+                    "derivative": 2,
+                    "distance": 1.081,
+                    "unit": "aa",
+                    "value": 0.375,
+                    "weight": 1.0
+                }
+            ],
+            "C-N": [
+                {
+                    "derivative": 2,
+                    "distance": 1.146,
+                    "unit": "aa",
+                    "value": 1.7,
+                    "weight": 1.0
+                },
+                {
+                    "derivative": 2,
+                    "distance": 1.464,
+                    "unit": "aa",
+                    "value": 0.35,
+                    "weight": 1.0
+                }
+            ],
+            "C-O": [
+                {
+                    "derivative": 2,
+                    "distance": 1.42,
+                    "unit": "aa",
+                    "value": 0.37,
+                    "weight": 1.0
+                }
+            ],
+            "H-H": [
+                {
+                    "derivative": 2,
+                    "distance": 0.743,
+                    "unit": "aa",
+                    "value": 0.423,
+                    "weight": 1.0
+                }
+            ],
+            "H-N": [
+                {
+                    "derivative": 2,
+                    "distance": 1.014,
+                    "unit": "aa",
+                    "value": 0.5,
+                    "weight": 1.0
+                },
+                {
+                    "derivative": 2,
+                    "distance": 1.25,
+                    "unit": "aa",
+                    "value": 0.15,
+                    "weight": 1.0
+                },
+                {
+                    "derivative": 2,
+                    "distance": 1.47,
+                    "unit": "aa",
+                    "value": -0.02,
+                    "weight": 1.0
+                }
+            ],
+            "H-O": [
+                {
+                    "derivative": 2,
+                    "distance": 0.961,
+                    "unit": "aa",
+                    "value": 0.62,
+                    "weight": 1.0
+                }
+            ],
+            "N-N": [
+                {
+                    "derivative": 2,
+                    "distance": 1.091,
+                    "unit": "aa",
+                    "value": 2.4,
+                    "weight": 1.0
+                },
+                {
+                    "derivative": 2,
+                    "distance": 1.436,
+                    "unit": "aa",
+                    "value": 0.35,
+                    "weight": 1.0
+                }
+            ],
+            "N-O": [
+                {
+                    "derivative": 2,
+                    "distance": 1.2,
+                    "unit": "aa",
+                    "value": 1.3,
+                    "weight": 1.0
+                },
+                {
+                    "derivative": 2,
+                    "distance": 1.37,
+                    "unit": "aa",
+                    "value": 0.9,
+                    "weight": 1.0
+                }
+            ],
+            "O-O": [
+                {
+                    "derivative": 2,
+                    "distance": 1.206,
+                    "unit": "aa",
+                    "value": 0.75,
+                    "weight": 1.0
+                },
+                {
+                    "derivative": 2,
+                    "distance": 1.452,
+                    "unit": "aa",
+                    "value": 0.195,
+                    "weight": 1.0
+                }
+            ]
+        },
+        "energy": [
+            {
+                "energy": 69.8,
+                "name": "h2_hydrogen_{74cf9d9a-7755-58a6-a8a0-d7115d5502cd}",
+                "unit": "kcal/mol",
+                "uuid": "{74cf9d9a-7755-58a6-a8a0-d7115d5502cd}",
+                "weight": 1.0
+            },
+            {
+                "energy": 227.8,
+                "name": "n2_nitrogen_{eb18a44f-86d4-5c41-8404-90ba2d2a5b4b}",
+                "unit": "kcal/mol",
+                "uuid": "{eb18a44f-86d4-5c41-8404-90ba2d2a5b4b}",
+                "weight": 1.0
+            },
+            {
+                "energy": 91.4,
+                "name": "o2_oxygen1_{a3c46047-0ac0-553b-ad0d-f5c1b58a935c}",
+                "unit": "kcal/mol",
+                "uuid": "{a3c46047-0ac0-553b-ad0d-f5c1b58a935c}",
+                "weight": 1.0
+            },
+            {
+                "energy": 259.8,
+                "name": "c1o1_carbonmonoxide_{f2d7c392-41a0-5ab1-995e-e139018cb4e6}",
+                "unit": "kcal/mol",
+                "uuid": "{f2d7c392-41a0-5ab1-995e-e139018cb4e6}",
+                "weight": 0.1
+            },
+            {
+                "energy": 390.6,
+                "name": "c1o2_carbondioxide_{51d2afe0-3d01-5585-bb48-651702afcdc0}",
+                "unit": "kcal/mol",
+                "uuid": "{51d2afe0-3d01-5585-bb48-651702afcdc0}",
+                "weight": 0.1
+            },
+            {
+                "energy": 231.9,
+                "name": "h2o1_water_{81d96316-4631-58ac-ad6b-e78a448d264c}",
+                "unit": "kcal/mol",
+                "uuid": "{81d96316-4631-58ac-ad6b-e78a448d264c}",
+                "weight": 1.0
+            },
+            {
+                "energy": 267.5,
+                "name": "h2o2_hydrogenperoxide_{33de7784-ab45-5410-920e-8b1e25b669b7}",
+                "unit": "kcal/mol",
+                "uuid": "{33de7784-ab45-5410-920e-8b1e25b669b7}",
+                "weight": 1.0
+            },
+            {
+                "energy": 419.7,
+                "name": "c1h4_methane_{afdccb16-cf0f-5bc0-ae2d-079d6834e937}",
+                "unit": "kcal/mol",
+                "uuid": "{afdccb16-cf0f-5bc0-ae2d-079d6834e937}",
+                "weight": 1.0
+            },
+            {
+                "energy": 404.9,
+                "name": "c2h2_ethyne_{ac258f5e-857c-588f-af93-bf4effaff260}",
+                "unit": "kcal/mol",
+                "uuid": "{ac258f5e-857c-588f-af93-bf4effaff260}",
+                "weight": 2.0
+            },
+            {
+                "energy": 563.0,
+                "name": "c2h4_ethene_{416af1c2-8110-5f2d-90b5-e7f34b80bb71}",
+                "unit": "kcal/mol",
+                "uuid": "{416af1c2-8110-5f2d-90b5-e7f34b80bb71}",
+                "weight": 2.0
+            },
+            {
+                "energy": 711.4,
+                "name": "c2h6_ethane_{854e6391-af24-507f-9bbe-36b07c3a06e0}",
+                "unit": "kcal/mol",
+                "uuid": "{854e6391-af24-507f-9bbe-36b07c3a06e0}",
+                "weight": 2.0
+            },
+            {
+                "energy": 1365.9,
+                "name": "c6h6_benzene_{2d0792f5-7a73-5647-b1b8-03c02fdacafd}",
+                "unit": "kcal/mol",
+                "uuid": "{2d0792f5-7a73-5647-b1b8-03c02fdacafd}",
+                "weight": 1.5
+            },
+            {
+                "energy": 296.8,
+                "name": "h3n1_ammonia_{6a05f673-cef3-5b24-8b52-138234098fe1}",
+                "unit": "kcal/mol",
+                "uuid": "{6a05f673-cef3-5b24-8b52-138234098fe1}",
+                "weight": 1.0
+            },
+            {
+                "energy": 436.1,
+                "name": "h4n2_hydrazine_{5e7aa39e-a8bf-5a78-acdf-3258b7fb2fca}",
+                "unit": "kcal/mol",
+                "uuid": "{5e7aa39e-a8bf-5a78-acdf-3258b7fb2fca}",
+                "weight": 1.0
+            },
+            {
+                "energy": 311.3,
+                "name": "h1n1o2_nitrousacid_{a0774f6f-b120-58d4-91b7-2715a634cc2c}",
+                "unit": "kcal/mol",
+                "uuid": "{a0774f6f-b120-58d4-91b7-2715a634cc2c}",
+                "weight": 0.1
+            },
+            {
+                "energy": 313.3,
+                "name": "c1h1n1_hydrogencyanide_{902dff60-4fff-57cb-8aaa-5e0a22ee4459}",
+                "unit": "kcal/mol",
+                "uuid": "{902dff60-4fff-57cb-8aaa-5e0a22ee4459}",
+                "weight": 1.0
+            },
+            {
+                "energy": 438.5,
+                "name": "c1h3n1_methanimine_{916a0767-76bf-55a3-b26d-920f140b6bf7}",
+                "unit": "kcal/mol",
+                "uuid": "{916a0767-76bf-55a3-b26d-920f140b6bf7}",
+                "weight": 1.0
+            },
+            {
+                "energy": 580.5,
+                "name": "c1h5n1_methylamine_{de99df20-59f2-52b2-aba7-795a2f569131}",
+                "unit": "kcal/mol",
+                "uuid": "{de99df20-59f2-52b2-aba7-795a2f569131}",
+                "weight": 1.0
+            },
+            {
+                "energy": 512.1,
+                "name": "c1h4o1_methanol_{7da22392-4461-515c-aa9f-f0adc47cfcbb}",
+                "unit": "kcal/mol",
+                "uuid": "{7da22392-4461-515c-aa9f-f0adc47cfcbb}",
+                "weight": 1.0
+            },
+            {
+                "energy": 374.4,
+                "name": "c1h2o1_formaldehyde_{e48ecc13-cddb-5958-b158-5213f6f92293}",
+                "unit": "kcal/mol",
+                "uuid": "{e48ecc13-cddb-5958-b158-5213f6f92293}",
+                "weight": 1.0
+            },
+            {
+                "energy": 500.9,
+                "name": "c1h2o2_formicacid_{fd00836c-9a83-50cc-ab18-51958164e203}",
+                "unit": "kcal/mol",
+                "uuid": "{fd00836c-9a83-50cc-ab18-51958164e203}",
+                "weight": 1.0
+            },
+            {
+                "energy": 601.1,
+                "name": "c1h3n1o2_nitromethane_{77495c14-83ff-52d2-8f94-c32a7fcfed1d}",
+                "unit": "kcal/mol",
+                "uuid": "{77495c14-83ff-52d2-8f94-c32a7fcfed1d}",
+                "weight": 1.0
+            },
+            {
+                "energy": 1159.2,
+                "name": "c3h9n1_trimethylamine_{141ea0be-9c8d-58bf-9bb0-e9cdae3dfe4d}",
+                "unit": "kcal/mol",
+                "uuid": "{141ea0be-9c8d-58bf-9bb0-e9cdae3dfe4d}",
+                "weight": 1.0
+            },
+            {
+                "energy": 802.2,
+                "name": "c2h4o2_aceticacid_{c16bd103-840a-55db-b904-4baee628e983}",
+                "unit": "kcal/mol",
+                "uuid": "{c16bd103-840a-55db-b904-4baee628e983}",
+                "weight": 1.0
+            },
+            {
+                "energy": 785.9,
+                "name": "c2h4o2_methylformate_{fab5d9b0-53b1-55f0-af0f-2de2d253ccce}",
+                "unit": "kcal/mol",
+                "uuid": "{fab5d9b0-53b1-55f0-af0f-2de2d253ccce}",
+                "weight": 1.0
+            }
+        ],
+        "force": [
+            {
+                "name": "h2_hydrogen_{74cf9d9a-7755-58a6-a8a0-d7115d5502cd}",
+                "uuid": "{74cf9d9a-7755-58a6-a8a0-d7115d5502cd}",
+                "weight": 1.0
+            },
+            {
+                "name": "n2_nitrogen_{eb18a44f-86d4-5c41-8404-90ba2d2a5b4b}",
+                "uuid": "{eb18a44f-86d4-5c41-8404-90ba2d2a5b4b}",
+                "weight": 1.0
+            },
+            {
+                "name": "o2_oxygen1_{a3c46047-0ac0-553b-ad0d-f5c1b58a935c}",
+                "uuid": "{a3c46047-0ac0-553b-ad0d-f5c1b58a935c}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1o1_carbonmonoxide_{f2d7c392-41a0-5ab1-995e-e139018cb4e6}",
+                "uuid": "{f2d7c392-41a0-5ab1-995e-e139018cb4e6}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1o2_carbondioxide_{51d2afe0-3d01-5585-bb48-651702afcdc0}",
+                "uuid": "{51d2afe0-3d01-5585-bb48-651702afcdc0}",
+                "weight": 1.0
+            },
+            {
+                "name": "h2o1_water_{81d96316-4631-58ac-ad6b-e78a448d264c}",
+                "uuid": "{81d96316-4631-58ac-ad6b-e78a448d264c}",
+                "weight": 1.0
+            },
+            {
+                "name": "h2o2_hydrogenperoxide_{33de7784-ab45-5410-920e-8b1e25b669b7}",
+                "uuid": "{33de7784-ab45-5410-920e-8b1e25b669b7}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h4_methane_{afdccb16-cf0f-5bc0-ae2d-079d6834e937}",
+                "uuid": "{afdccb16-cf0f-5bc0-ae2d-079d6834e937}",
+                "weight": 1.0
+            },
+            {
+                "name": "c2h2_ethyne_{ac258f5e-857c-588f-af93-bf4effaff260}",
+                "uuid": "{ac258f5e-857c-588f-af93-bf4effaff260}",
+                "weight": 1.0
+            },
+            {
+                "name": "c2h4_ethene_{416af1c2-8110-5f2d-90b5-e7f34b80bb71}",
+                "uuid": "{416af1c2-8110-5f2d-90b5-e7f34b80bb71}",
+                "weight": 2.0
+            },
+            {
+                "name": "c2h6_ethane_{854e6391-af24-507f-9bbe-36b07c3a06e0}",
+                "uuid": "{854e6391-af24-507f-9bbe-36b07c3a06e0}",
+                "weight": 4.0
+            },
+            {
+                "name": "c6h6_benzene_{2d0792f5-7a73-5647-b1b8-03c02fdacafd}",
+                "uuid": "{2d0792f5-7a73-5647-b1b8-03c02fdacafd}",
+                "weight": 1.0
+            },
+            {
+                "name": "h3n1_ammonia_{6a05f673-cef3-5b24-8b52-138234098fe1}",
+                "uuid": "{6a05f673-cef3-5b24-8b52-138234098fe1}",
+                "weight": 1.0
+            },
+            {
+                "name": "h4n2_hydrazine_{5e7aa39e-a8bf-5a78-acdf-3258b7fb2fca}",
+                "uuid": "{5e7aa39e-a8bf-5a78-acdf-3258b7fb2fca}",
+                "weight": 1.0
+            },
+            {
+                "name": "h1n1o2_nitrousacid_{a0774f6f-b120-58d4-91b7-2715a634cc2c}",
+                "uuid": "{a0774f6f-b120-58d4-91b7-2715a634cc2c}",
+                "weight": 0.1
+            },
+            {
+                "name": "c1h1n1_hydrogencyanide_{902dff60-4fff-57cb-8aaa-5e0a22ee4459}",
+                "uuid": "{902dff60-4fff-57cb-8aaa-5e0a22ee4459}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h3n1_methanimine_{916a0767-76bf-55a3-b26d-920f140b6bf7}",
+                "uuid": "{916a0767-76bf-55a3-b26d-920f140b6bf7}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h5n1_methylamine_{de99df20-59f2-52b2-aba7-795a2f569131}",
+                "uuid": "{de99df20-59f2-52b2-aba7-795a2f569131}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h4o1_methanol_{7da22392-4461-515c-aa9f-f0adc47cfcbb}",
+                "uuid": "{7da22392-4461-515c-aa9f-f0adc47cfcbb}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h2o1_formaldehyde_{e48ecc13-cddb-5958-b158-5213f6f92293}",
+                "uuid": "{e48ecc13-cddb-5958-b158-5213f6f92293}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h2o2_formicacid_{fd00836c-9a83-50cc-ab18-51958164e203}",
+                "uuid": "{fd00836c-9a83-50cc-ab18-51958164e203}",
+                "weight": 1.0
+            },
+            {
+                "name": "c1h3n1o2_nitromethane_{77495c14-83ff-52d2-8f94-c32a7fcfed1d}",
+                "uuid": "{77495c14-83ff-52d2-8f94-c32a7fcfed1d}",
+                "weight": 1.0
+            },
+            {
+                "name": "c3h9n1_trimethylamine_{141ea0be-9c8d-58bf-9bb0-e9cdae3dfe4d}",
+                "uuid": "{141ea0be-9c8d-58bf-9bb0-e9cdae3dfe4d}",
+                "weight": 1.0
+            },
+            {
+                "name": "c2h4o2_aceticacid_{c16bd103-840a-55db-b904-4baee628e983}",
+                "uuid": "{c16bd103-840a-55db-b904-4baee628e983}",
+                "weight": 1.0
+            },
+            {
+                "name": "c2h4o2_methylformate_{fab5d9b0-53b1-55f0-af0f-2de2d253ccce}",
+                "uuid": "{fab5d9b0-53b1-55f0-af0f-2de2d253ccce}",
+                "weight": 1.0
+            }
+        ],
+        "reaction": [
+            {
+                "energy": 0.61,
+                "name": "h5o2_zundelion_25",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-bar25_{02ab9ed9-10c9-50d4-bd06-891631854f53}",
+                        "uuid": "{02ab9ed9-10c9-50d4-bd06-891631854f53}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-rel25_{c6600fda-3e18-5473-a8cb-0ff071207eb6}",
+                        "uuid": "{c6600fda-3e18-5473-a8cb-0ff071207eb6}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{d0ca6c91-6699-518f-8d7b-303f84f90015}",
+                "weight": 1.0
+            },
+            {
+                "energy": 2.36,
+                "name": "h5o2_zundelion_26",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-bar26_{eedd4468-71bb-586a-9f04-36aa2abdae21}",
+                        "uuid": "{eedd4468-71bb-586a-9f04-36aa2abdae21}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-rel26_{c95959e8-cdf5-5009-8126-fc44d0a259f3}",
+                        "uuid": "{c95959e8-cdf5-5009-8126-fc44d0a259f3}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{905ab6bc-2236-5a6e-821b-165b68de2774}",
+                "weight": 1.0
+            },
+            {
+                "energy": 5.2,
+                "name": "h5o2_zundelion_27",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-bar27_{e29dc1fc-c8e3-5a55-a265-a22606c2a10a}",
+                        "uuid": "{e29dc1fc-c8e3-5a55-a265-a22606c2a10a}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-rel27_{ee6142f7-e673-5f85-ad29-180c333f4053}",
+                        "uuid": "{ee6142f7-e673-5f85-ad29-180c333f4053}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{6269d49f-a53a-599c-90cc-30d03c686531}",
+                "weight": 1.0
+            },
+            {
+                "energy": 8.85,
+                "name": "h5o2_zundelion_28",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-bar28_{91d1be71-9738-54f8-8cd7-e2deaef90c9b}",
+                        "uuid": "{91d1be71-9738-54f8-8cd7-e2deaef90c9b}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5o2_zundelion-rel28_{68cb552d-66d0-522b-bf10-d9b53ae97c21}",
+                        "uuid": "{68cb552d-66d0-522b-bf10-d9b53ae97c21}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{e30e5f6d-5561-506b-b0d5-3643c0492fff}",
+                "weight": 1.0
+            },
+            {
+                "energy": 0.5,
+                "name": "h3o2_water_ohM_25",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-bar25_{99236b68-f91b-5ee8-8974-cd50db6d982a}",
+                        "uuid": "{99236b68-f91b-5ee8-8974-cd50db6d982a}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-rel25_{22c37953-1450-5193-b01e-ce3b41cc57a0}",
+                        "uuid": "{22c37953-1450-5193-b01e-ce3b41cc57a0}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{da28eaa4-fac4-5414-a288-de5173e9de37}",
+                "weight": 1.0
+            },
+            {
+                "energy": 2.3,
+                "name": "h3o2_water_ohM_26",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-bar26_{9f4246cf-e84d-5304-875f-4c5024fbb246}",
+                        "uuid": "{9f4246cf-e84d-5304-875f-4c5024fbb246}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-rel26_{e72f7abd-d210-570a-a5db-2f70e643596c}",
+                        "uuid": "{e72f7abd-d210-570a-a5db-2f70e643596c}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{60044301-7aac-540e-880f-f113df67799b}",
+                "weight": 1.0
+            },
+            {
+                "energy": 5.16,
+                "name": "h3o2_water_ohM_27",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-bar27_{43d102ca-f066-5916-ba8c-a48dd37886c2}",
+                        "uuid": "{43d102ca-f066-5916-ba8c-a48dd37886c2}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-rel27_{c13ea1b6-b7cf-5167-8322-e905930e9596}",
+                        "uuid": "{c13ea1b6-b7cf-5167-8322-e905930e9596}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{b9a09f0b-9920-5875-accf-f03bcd6c5851}",
+                "weight": 1.0
+            },
+            {
+                "energy": 8.81,
+                "name": "h3o2_water_ohM_28",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-bar28_{a98c9859-c374-5109-8e32-f9b7ff0c79b5}",
+                        "uuid": "{a98c9859-c374-5109-8e32-f9b7ff0c79b5}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h3o2_water-ohM-rel28_{204c405a-da2f-5119-a606-ab5cce20b9c0}",
+                        "uuid": "{204c405a-da2f-5119-a606-ab5cce20b9c0}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{45a0adc5-acb1-59fc-8f8d-3afe6b2884c1}",
+                "weight": 1.0
+            },
+            {
+                "energy": 0.4,
+                "name": "h7n2_nh3-h-nh3_26",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-bar26_{4e083497-c7a7-59a9-a3ae-872f07c03cb2}",
+                        "uuid": "{4e083497-c7a7-59a9-a3ae-872f07c03cb2}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-rel26_{79b684b0-d05c-5ffd-9c09-7e624da2644d}",
+                        "uuid": "{79b684b0-d05c-5ffd-9c09-7e624da2644d}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{f11e8068-6f62-5617-ac26-a6c713a42f8e}",
+                "weight": 1.0
+            },
+            {
+                "energy": 1.94,
+                "name": "h7n2_nh3-h-nh3_27",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-bar27_{ecb89d96-e775-5edb-93da-926f9f9b0532}",
+                        "uuid": "{ecb89d96-e775-5edb-93da-926f9f9b0532}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-rel27_{5ebffe8a-d747-52d3-aa70-d4d5f2de6b12}",
+                        "uuid": "{5ebffe8a-d747-52d3-aa70-d4d5f2de6b12}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{cb81672e-d085-596b-8005-7a1ea841ffe0}",
+                "weight": 1.0
+            },
+            {
+                "energy": 4.44,
+                "name": "h7n2_nh3-h-nh3_28",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-bar28_{97614263-9776-50ad-a999-1f52ce58d43a}",
+                        "uuid": "{97614263-9776-50ad-a999-1f52ce58d43a}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-rel28_{9dee67d6-0a16-54f1-b6e0-0ef4fdb8e0d9}",
+                        "uuid": "{9dee67d6-0a16-54f1-b6e0-0ef4fdb8e0d9}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{dcfde2a9-ace1-51da-8caf-e3cd2e553c3d}",
+                "weight": 1.0
+            },
+            {
+                "energy": 7.7,
+                "name": "h7n2_nh3-h-nh3_29",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-bar29_{83d9bb62-226f-5dcd-ba77-5c589dcb6df1}",
+                        "uuid": "{83d9bb62-226f-5dcd-ba77-5c589dcb6df1}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h7n2_nh3-h-nh3-rel29_{5d924d89-6a84-5da6-b242-7550db7fcdb4}",
+                        "uuid": "{5d924d89-6a84-5da6-b242-7550db7fcdb4}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{f1153437-00ac-5394-b81b-6364d3bab736}",
+                "weight": 1.0
+            },
+            {
+                "energy": 0.05,
+                "name": "h5n2_nh2-h-nh2_25",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-bar25_{97cfbde8-7ee6-50fc-88ac-83568f7f57fd}",
+                        "uuid": "{97cfbde8-7ee6-50fc-88ac-83568f7f57fd}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-rel25_{d9efcf9f-af36-5361-b12b-8d604bda30b0}",
+                        "uuid": "{d9efcf9f-af36-5361-b12b-8d604bda30b0}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{ba584cf8-cceb-55fc-b9d5-9ce079b01018}",
+                "weight": 1.0
+            },
+            {
+                "energy": 1.44,
+                "name": "h5n2_nh2-h-nh2_26",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-bar26_{5add63dd-988d-5cb3-99c6-e4dfd90db9f7}",
+                        "uuid": "{5add63dd-988d-5cb3-99c6-e4dfd90db9f7}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-rel26_{3de19a89-6a3d-5253-9ba3-1ab60afd1e7e}",
+                        "uuid": "{3de19a89-6a3d-5253-9ba3-1ab60afd1e7e}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{0ec9628c-04db-54e7-99fe-7efd026f81a1}",
+                "weight": 1.0
+            },
+            {
+                "energy": 3.49,
+                "name": "h5n2_nh2-h-nh2_27",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-bar27_{f528e89f-ca4f-54e0-b5c1-9eaaa07331ad}",
+                        "uuid": "{f528e89f-ca4f-54e0-b5c1-9eaaa07331ad}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-rel27_{ca635c88-437e-5ab0-bf08-2f76a4f4c3b9}",
+                        "uuid": "{ca635c88-437e-5ab0-bf08-2f76a4f4c3b9}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{658f4e2a-b743-56a0-bb13-c533c6307bfb}",
+                "weight": 1.0
+            },
+            {
+                "energy": 6.26,
+                "name": "h5n2_nh2-h-nh2_28",
+                "products": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-bar28_{232fae31-8823-59d0-ab5a-e24591cd4452}",
+                        "uuid": "{232fae31-8823-59d0-ab5a-e24591cd4452}"
+                    }
+                ],
+                "reactants": [
+                    {
+                        "coefficient": 1.0,
+                        "name": "h5n2_nh2-h-nh2-rel28_{3b1f3f32-509a-5cee-b8fd-4c408a92a355}",
+                        "uuid": "{3b1f3f32-509a-5cee-b8fd-4c408a92a355}"
+                    }
+                ],
+                "unit": "kcal/mol",
+                "uuid": "{03a363d0-e7d0-5993-85eb-cfab48e36701}",
+                "weight": 1.0
+            }
+        ]
+    },
+    "external_repulsive_potentials": {},
+    "options": {
+        "debug": true,
+        "fit_all_atom_energy": false,
+        "spline_order": 4,
+        "toolchain": {
+            "name": "dftb+",
+            "path": "dftb+"
+        },
+        "use_cache": false,
+        "output_prefix": "./skfiles/"
+    },
+    "potential_grids": {
+        "C-C": {
+            "knots": [
+                2.0,
+                2.8,
+                3.0,
+                4.0,
+                4.8
+            ]
+        },
+        "C-N": {
+            "knots": [
+                2.0,
+                2.4,
+                2.6,
+                3.1,
+                3.8,
+                4.2
+            ]
+        },
+        "C-O": {
+            "knots": [
+                2.0,
+                2.9,
+                3.5,
+                4.6
+            ]
+        },
+        "H-C": {
+            "knots": [
+                2.0,
+                2.5,
+                3.4,
+                3.5
+            ]
+        },
+        "H-H": {
+            "knots": [
+                1.4,
+                1.6,
+                1.8,
+                2.0
+            ]
+        },
+        "H-N": {
+            "knots": [
+                1.8,
+                2.5,
+                3.0,
+                3.5,
+                4.4
+            ]
+        },
+        "H-O": {
+            "knots": [
+                1.7,
+                2.2,
+                2.7,
+                3.4,
+                3.7
+            ]
+        },
+        "N-N": {
+            "knots": [
+                2.0,
+                3.3,
+                3.4,
+                4.8
+            ]
+        },
+        "N-O": {
+            "knots": [
+                1.9,
+                2.4,
+                2.6,
+                3.5,
+                3.6,
+                3.9
+            ]
+        },
+        "O-O": {
+            "knots": [
+                2.0,
+                2.8,
+                3.4,
+                4.4,
+                4.5
+            ]
+        }
+    },
+    "systems": [
+        {
+            "elec_data": {
+                "elec_energy": -5.32650233899025,
+                "elec_forces": [
+                    [
+                        0.0171355915226431,
+                        -0.28595838807315,
+                        -5.19889641836426e-17
+                    ],
+                    [
+                        -0.136647560370713,
+                        0.324848427968033,
+                        -3.6000437797939e-17
+                    ],
+                    [
+                        0.0635130419324814,
+                        -0.0455839610260439,
+                        6.83099838291069e-18
+                    ],
+                    [
+                        -0.0741757621972712,
+                        -0.0384083193571245,
+                        2.06200276489873e-17
+                    ],
+                    [
+                        0.13017468911286,
+                        0.0451022404882857,
+                        6.05383759496836e-17
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.05596,
+                        0.58238,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.05596,
+                        -0.68088,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.8403,
+                        1.20986,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        1.00986,
+                        1.10939,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.89707,
+                        -1.04735,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c1h3n1_methanimine_{916a0767-76bf-55a3-b26d-920f140b6bf7}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{916a0767-76bf-55a3-b26d-920f140b6bf7}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -12.0444796132659,
+                "elec_forces": [
+                    [
+                        -0.00330238593265769,
+                        0.00455232370797409,
+                        9.88927906578341e-17
+                    ],
+                    [
+                        -0.00797185037496018,
+                        0.23107462017759,
+                        -9.67379388400191e-17
+                    ],
+                    [
+                        0.0447828701620178,
+                        0.0243336016136951,
+                        -0.0732542972074122
+                    ],
+                    [
+                        0.0447828701620178,
+                        0.0243336016136952,
+                        0.0732542972074121
+                    ],
+                    [
+                        -0.0880197933068499,
+                        0.0239250917382902,
+                        1.52194879962653e-17
+                    ],
+                    [
+                        -0.311820840773189,
+                        -0.165912899955133,
+                        1.12326733201287e-16
+                    ],
+                    [
+                        0.321549130063622,
+                        -0.142306338896112,
+                        -2.53245910570091e-17
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.03737,
+                        -1.32343,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        0.17518,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.49287,
+                        -1.65741,
+                        0.88717
+                    ],
+                    [
+                        "H",
+                        -0.49287,
+                        -1.65741,
+                        -0.88717
+                    ],
+                    [
+                        "H",
+                        1.07235,
+                        -1.6416,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        1.0646,
+                        0.76712,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        -1.10346,
+                        0.69172,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c1h3n1o2_nitromethane_{77495c14-83ff-52d2-8f94-c32a7fcfed1d}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{77495c14-83ff-52d2-8f94-c32a7fcfed1d}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.37917117574305,
+                "elec_forces": [
+                    [
+                        0.118848045009165,
+                        -0.0339890473875817,
+                        0.0763778495156224
+                    ],
+                    [
+                        -0.114751471871783,
+                        -0.0214138954141289,
+                        -0.0763778495156226
+                    ],
+                    [
+                        -0.118848045009166,
+                        0.0339890473875822,
+                        0.0763778495156233
+                    ],
+                    [
+                        0.114751471871783,
+                        0.0214138954141285,
+                        -0.0763778495156231
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        0.72596,
+                        -0.05748
+                    ],
+                    [
+                        "H",
+                        0.79681,
+                        0.90057,
+                        0.45987
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -0.72596,
+                        -0.05748
+                    ],
+                    [
+                        "H",
+                        -0.79681,
+                        -0.90057,
+                        0.45987
+                    ]
+                ]
+            },
+            "name": "h2o2_hydrogenperoxide_{33de7784-ab45-5410-920e-8b1e25b669b7}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{33de7784-ab45-5410-920e-8b1e25b669b7}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -5.83534708578542,
+                "elec_forces": [
+                    [
+                        3.30253161528578e-19,
+                        1.41549793398034e-16,
+                        -0.415210211460592
+                    ],
+                    [
+                        1.10020378143315e-17,
+                        -9.93603528447184e-17,
+                        0.349467133042751
+                    ],
+                    [
+                        5.62531713432953e-18,
+                        -0.0564915367195634,
+                        0.0328715392089209
+                    ],
+                    [
+                        -1.69576081101896e-17,
+                        0.0564915367195634,
+                        0.0328715392089208
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        0.67312
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        -0.52593
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.9372,
+                        -1.11468
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -0.9372,
+                        -1.11468
+                    ]
+                ]
+            },
+            "name": "c1h2o1_formaldehyde_{e48ecc13-cddb-5958-b158-5213f6f92293}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{e48ecc13-cddb-5958-b158-5213f6f92293}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.68071588687051,
+                "elec_forces": [
+                    [
+                        2.32014698258124e-18,
+                        1.51285722696398e-16,
+                        -0.493513170697849
+                    ],
+                    [
+                        -4.76764156038279e-17,
+                        -1.24222841607073e-16,
+                        -8.81239525796218e-16
+                    ],
+                    [
+                        4.53562686212466e-17,
+                        -2.70628810893249e-17,
+                        0.49351317069785
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        1.16038
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        -1.16038
+                    ]
+                ]
+            },
+            "name": "c1o2_carbondioxide_{51d2afe0-3d01-5585-bb48-651702afcdc0}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{51d2afe0-3d01-5585-bb48-651702afcdc0}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.45232306924282,
+                "elec_forces": [
+                    [
+                        0.108281347693022,
+                        -0.0301406492380324,
+                        0.0940383742606336
+                    ],
+                    [
+                        -0.108281347693024,
+                        0.0301406492380287,
+                        0.0940383742606358
+                    ],
+                    [
+                        0.0311365541753814,
+                        -0.0566253049481192,
+                        -0.127487798345576
+                    ],
+                    [
+                        -0.0311365541753813,
+                        0.056625304948121,
+                        -0.127487798345578
+                    ],
+                    [
+                        -0.133959959740979,
+                        -0.0403549582356334,
+                        0.0334494240849425
+                    ],
+                    [
+                        0.13395995974098,
+                        0.0403549582356354,
+                        0.0334494240849421
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        0.71779,
+                        -0.07574
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        -0.71779,
+                        -0.07574
+                    ],
+                    [
+                        "H",
+                        -0.23006,
+                        1.09814,
+                        0.83695
+                    ],
+                    [
+                        "H",
+                        0.23006,
+                        -1.09814,
+                        0.83695
+                    ],
+                    [
+                        "H",
+                        0.93683,
+                        1.02041,
+                        -0.30679
+                    ],
+                    [
+                        "H",
+                        -0.93683,
+                        -1.02041,
+                        -0.30679
+                    ]
+                ]
+            },
+            "name": "h4n2_hydrazine_{5e7aa39e-a8bf-5a78-acdf-3258b7fb2fca}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{5e7aa39e-a8bf-5a78-acdf-3258b7fb2fca}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -4.23349166093327,
+                "elec_forces": [
+                    [
+                        4.33418974918102e-16,
+                        3.76779294476505e-17,
+                        -0.438864872510496
+                    ],
+                    [
+                        -2.51089458391575e-16,
+                        4.66295675998899e-17,
+                        0.438864872510496
+                    ],
+                    [
+                        9.08467768607983e-18,
+                        -4.10434494636353e-17,
+                        -0.108728716954334
+                    ],
+                    [
+                        -1.91414194212606e-16,
+                        -4.32640475839051e-17,
+                        0.108728716954334
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        0.59801
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        -0.59801
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        1.6596
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        -1.6596
+                    ]
+                ]
+            },
+            "name": "c2h2_ethyne_{ac258f5e-857c-588f-af93-bf4effaff260}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{ac258f5e-857c-588f-af93-bf4effaff260}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -4.90329194812563,
+                "elec_forces": [
+                    [
+                        1.16807221303961e-16,
+                        -2.25111711227039e-16,
+                        -0.173179699898729
+                    ],
+                    [
+                        -8.99905630760087e-17,
+                        2.82649812301076e-16,
+                        0.173179699898729
+                    ],
+                    [
+                        3.28956858073984e-17,
+                        -0.0789483271574597,
+                        -0.0493678692405411
+                    ],
+                    [
+                        -2.9373327856055e-17,
+                        0.0789483271574598,
+                        -0.049367869240541
+                    ],
+                    [
+                        -4.77382646360622e-17,
+                        -0.0789483271574598,
+                        0.049367869240541
+                    ],
+                    [
+                        1.73992484567668e-17,
+                        0.0789483271574597,
+                        0.0493678692405409
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        0.66206
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        -0.66206
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.92067,
+                        1.23158
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -0.92067,
+                        1.23158
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.92067,
+                        -1.23158
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -0.92067,
+                        -1.23158
+                    ]
+                ]
+            },
+            "name": "c2h4_ethene_{416af1c2-8110-5f2d-90b5-e7f34b80bb71}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{416af1c2-8110-5f2d-90b5-e7f34b80bb71}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -11.7194580319688,
+                "elec_forces": [
+                    [
+                        -0.013290587183646,
+                        0.248290047082967,
+                        7.71003269908754e-17
+                    ],
+                    [
+                        -0.0649346581924426,
+                        -0.366793536156577,
+                        -2.47316679939311e-17
+                    ],
+                    [
+                        0.0291396657358076,
+                        0.184238339688104,
+                        -3.70136457291184e-17
+                    ],
+                    [
+                        0.0905541019929006,
+                        -0.114950940580752,
+                        -1.26809302533441e-17
+                    ],
+                    [
+                        0.0183911010952361,
+                        -0.0126055896345261,
+                        3.31359288965882e-17
+                    ],
+                    [
+                        0.0106224379914944,
+                        0.0522571393656222,
+                        -0.0720250365417552
+                    ],
+                    [
+                        0.0106224379914944,
+                        0.0522571393656221,
+                        0.0720250365417552
+                    ],
+                    [
+                        -0.0811044994308444,
+                        -0.0426925991304616,
+                        3.3288394827094e-18
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.15584,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        0.1843,
+                        1.34458,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        -1.24292,
+                        -0.38744,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -1.86874,
+                        0.35179,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        1.06454,
+                        -0.90433,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.9535,
+                        -1.54077,
+                        0.87798
+                    ],
+                    [
+                        "H",
+                        0.9535,
+                        -1.54077,
+                        -0.87798
+                    ],
+                    [
+                        "H",
+                        2.04347,
+                        -0.4364,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c2h4o2_aceticacid_{c16bd103-840a-55db-b904-4baee628e983}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{c16bd103-840a-55db-b904-4baee628e983}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -3.17163051857703,
+                "elec_forces": [
+                    [
+                        1.57751416096641e-17,
+                        4.9832642352865e-17,
+                        -2.71050543121376e-20
+                    ],
+                    [
+                        -0.0545395653310208,
+                        -0.0545395653310209,
+                        -0.0545395653310209
+                    ],
+                    [
+                        0.0545395653310208,
+                        0.0545395653310208,
+                        -0.0545395653310208
+                    ],
+                    [
+                        -0.0545395653310209,
+                        0.0545395653310208,
+                        0.0545395653310209
+                    ],
+                    [
+                        0.0545395653310209,
+                        -0.0545395653310208,
+                        0.0545395653310209
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.62834,
+                        0.62834,
+                        0.62834
+                    ],
+                    [
+                        "H",
+                        -0.62834,
+                        -0.62834,
+                        0.62834
+                    ],
+                    [
+                        "H",
+                        0.62834,
+                        -0.62834,
+                        -0.62834
+                    ],
+                    [
+                        "H",
+                        -0.62834,
+                        0.62834,
+                        -0.62834
+                    ]
+                ]
+            },
+            "name": "c1h4_methane_{afdccb16-cf0f-5bc0-ae2d-079d6834e937}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{afdccb16-cf0f-5bc0-ae2d-079d6834e937}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.0451267139936,
+                "elec_forces": [
+                    [
+                        0.0206589382280515,
+                        -0.0132574695450822,
+                        1.06892593328177e-16
+                    ],
+                    [
+                        -0.151187028080908,
+                        0.00434291085063557,
+                        2.36661005462852e-17
+                    ],
+                    [
+                        0.0713354291939552,
+                        -0.0375964162768582,
+                        -1.64434506050477e-17
+                    ],
+                    [
+                        -0.0441526950263182,
+                        -0.0285839765002388,
+                        -0.0696863827780373
+                    ],
+                    [
+                        -0.0441526950263181,
+                        -0.0285839765002388,
+                        0.0696863827780372
+                    ],
+                    [
+                        0.0737490253557688,
+                        0.0518394639858912,
+                        0.11638169098294
+                    ],
+                    [
+                        0.0737490253557688,
+                        0.0518394639858912,
+                        -0.11638169098294
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0501,
+                        0.70504,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0501,
+                        -0.75895,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.94215,
+                        1.17527,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.58947,
+                        1.06471,
+                        0.87696
+                    ],
+                    [
+                        "H",
+                        0.58947,
+                        1.06471,
+                        -0.87696
+                    ],
+                    [
+                        "H",
+                        -0.44403,
+                        -1.11112,
+                        -0.8107
+                    ],
+                    [
+                        "H",
+                        -0.44403,
+                        -1.11112,
+                        0.8107
+                    ]
+                ]
+            },
+            "name": "c1h5n1_methylamine_{de99df20-59f2-52b2-aba7-795a2f569131}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{de99df20-59f2-52b2-aba7-795a2f569131}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -0.680386268109501,
+                "elec_forces": [
+                    [
+                        0.0,
+                        0.0,
+                        -0.0732269884050806
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0732269884050806
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.37145
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        -0.37145
+                    ]
+                ]
+            },
+            "name": "h2_hydrogen_{74cf9d9a-7755-58a6-a8a0-d7115d5502cd}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{74cf9d9a-7755-58a6-a8a0-d7115d5502cd}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -5.21615160202413,
+                "elec_forces": [
+                    [
+                        -2.17573881954884e-17,
+                        -3.7557899833508e-16,
+                        -0.670024294342488
+                    ],
+                    [
+                        2.17573881954884e-17,
+                        3.7557899833508e-16,
+                        0.670024294342488
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        0.48264
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        -0.64352
+                    ]
+                ]
+            },
+            "name": "c1o1_carbonmonoxide_{f2d7c392-41a0-5ab1-995e-e139018cb4e6}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{f2d7c392-41a0-5ab1-995e-e139018cb4e6}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -10.8849522007355,
+                "elec_forces": [
+                    [
+                        1.4538727616557e-16,
+                        1.54564425724227e-06,
+                        -0.0954365921618753
+                    ],
+                    [
+                        -6.05060581991021e-17,
+                        -0.00763674578040196,
+                        0.0176949971162678
+                    ],
+                    [
+                        -0.00661232952020745,
+                        0.00381697780604221,
+                        0.0176951102288114
+                    ],
+                    [
+                        0.00661232952020767,
+                        0.00381697780604216,
+                        0.0176951102288113
+                    ],
+                    [
+                        1.77661620353568e-17,
+                        -0.00763299579544515,
+                        0.0770515051876614
+                    ],
+                    [
+                        -0.00661032792732794,
+                        0.00381654108814529,
+                        0.077051497094682
+                    ],
+                    [
+                        0.00661032792732787,
+                        0.00381654108814526,
+                        0.0770514970946818
+                    ],
+                    [
+                        0.0697597593227805,
+                        -0.0401634766415707,
+                        -0.0314669775520432
+                    ],
+                    [
+                        -0.0697597593227805,
+                        -0.0401634766415707,
+                        -0.0314669775520432
+                    ],
+                    [
+                        -0.0696643615029733,
+                        -0.040330640641006,
+                        -0.0314678194619574
+                    ],
+                    [
+                        9.60472398465781e-05,
+                        0.0804946963541842,
+                        -0.0314667653805197
+                    ],
+                    [
+                        -9.60472398466682e-05,
+                        0.080494696354184,
+                        -0.0314667653805196
+                    ],
+                    [
+                        0.0696643615029731,
+                        -0.0403306406410059,
+                        -0.0314678194619573
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        0.0,
+                        0.36635
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        1.38789,
+                        -0.05958
+                    ],
+                    [
+                        "C",
+                        1.20195,
+                        -0.69394,
+                        -0.05958
+                    ],
+                    [
+                        "C",
+                        -1.20195,
+                        -0.69394,
+                        -0.05958
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        1.50187,
+                        -1.1585
+                    ],
+                    [
+                        "H",
+                        1.30066,
+                        -0.75093,
+                        -1.1585
+                    ],
+                    [
+                        "H",
+                        -1.30066,
+                        -0.75093,
+                        -1.1585
+                    ],
+                    [
+                        "H",
+                        -0.88275,
+                        1.89575,
+                        0.33057
+                    ],
+                    [
+                        "H",
+                        0.88275,
+                        1.89575,
+                        0.33057
+                    ],
+                    [
+                        "H",
+                        2.08314,
+                        -0.1834,
+                        0.33057
+                    ],
+                    [
+                        "H",
+                        1.2004,
+                        -1.71236,
+                        0.33057
+                    ],
+                    [
+                        "H",
+                        -1.2004,
+                        -1.71236,
+                        0.33057
+                    ],
+                    [
+                        "H",
+                        -2.08314,
+                        -0.1834,
+                        0.33057
+                    ]
+                ]
+            },
+            "name": "c3h9n1_trimethylamine_{141ea0be-9c8d-58bf-9bb0-e9cdae3dfe4d}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{141ea0be-9c8d-58bf-9bb0-e9cdae3dfe4d}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.53362028315145,
+                "elec_forces": [
+                    [
+                        0.0206846761394278,
+                        -0.011976979407925,
+                        -1.15190975112428e-16
+                    ],
+                    [
+                        -0.0833507118256855,
+                        -0.0230746296160187,
+                        5.77528239261663e-17
+                    ],
+                    [
+                        0.0340140320617976,
+                        -0.0326259702602269,
+                        -0.0654980451213236
+                    ],
+                    [
+                        0.0340140320617977,
+                        -0.0326259702602268,
+                        0.0654980451213236
+                    ],
+                    [
+                        -0.151220189319502,
+                        0.0538041611706038,
+                        1.63768738153935e-16
+                    ],
+                    [
+                        0.145858160882165,
+                        0.0464993883737936,
+                        -1.1069704181077e-16
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.04643,
+                        0.66308,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        1.08818,
+                        0.97924,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.43687,
+                        1.08028,
+                        0.88981
+                    ],
+                    [
+                        "H",
+                        -0.43687,
+                        1.08028,
+                        -0.88981
+                    ],
+                    [
+                        "O",
+                        0.04643,
+                        -0.75702,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.86446,
+                        -1.06212,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c1h4o1_methanol_{7da22392-4461-515c-aa9f-f0adc47cfcbb}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{7da22392-4461-515c-aa9f-f0adc47cfcbb}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -5.17123916259166,
+                "elec_forces": [
+                    [
+                        -1.24522226192219e-16,
+                        -3.1866826357039e-16,
+                        -0.930157295149305
+                    ],
+                    [
+                        1.24522226192219e-16,
+                        3.1866826357039e-16,
+                        0.930157295149305
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        0.0,
+                        0.54569
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        0.0,
+                        -0.54569
+                    ]
+                ]
+            },
+            "name": "n2_nitrogen_{eb18a44f-86d4-5c41-8404-90ba2d2a5b4b}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{eb18a44f-86d4-5c41-8404-90ba2d2a5b4b}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -4.68861599861238,
+                "elec_forces": [
+                    [
+                        3.37924492339419e-16,
+                        -2.80032599996003e-16,
+                        0.596764824882969
+                    ],
+                    [
+                        8.54381890860813e-17,
+                        -1.00602265526514e-16,
+                        0.105316360338438
+                    ],
+                    [
+                        -4.23362681425501e-16,
+                        3.80634865522517e-16,
+                        -0.702081185221407
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        -0.49704
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        -1.56233
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        0.0,
+                        0.64922
+                    ]
+                ]
+            },
+            "name": "c1h1n1_hydrogencyanide_{902dff60-4fff-57cb-8aaa-5e0a22ee4459}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{902dff60-4fff-57cb-8aaa-5e0a22ee4459}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -4.12983589032129,
+                "elec_forces": [
+                    [
+                        6.16297582203915e-32,
+                        -6.31547765472806e-17,
+                        -0.206145898956246
+                    ],
+                    [
+                        -6.45809712807087e-17,
+                        -0.122211653555853,
+                        0.103072949478123
+                    ],
+                    [
+                        6.45809712807087e-17,
+                        0.122211653555853,
+                        0.103072949478123
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        0.11768
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.76026,
+                        -0.4707
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -0.76026,
+                        -0.4707
+                    ]
+                ]
+            },
+            "name": "h2o1_water_{81d96316-4631-58ac-ad6b-e78a448d264c}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{81d96316-4631-58ac-ad6b-e78a448d264c}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -11.6742958686842,
+                "elec_forces": [
+                    [
+                        0.00173881478754544,
+                        0.00859799402508562,
+                        8.25077853261469e-17
+                    ],
+                    [
+                        -0.02211756820282,
+                        -0.144042082650851,
+                        9.48676900924816e-19
+                    ],
+                    [
+                        0.102547432124062,
+                        -0.230018667440877,
+                        -1.52330405234213e-16
+                    ],
+                    [
+                        -0.059192946904867,
+                        0.375731419341604,
+                        1.94177220960365e-16
+                    ],
+                    [
+                        -0.0459642165277475,
+                        -0.0750382062626529,
+                        -4.10099471742642e-17
+                    ],
+                    [
+                        -0.0163911381450914,
+                        0.0476468020511416,
+                        -0.0694189967517347
+                    ],
+                    [
+                        -0.0163911381450912,
+                        0.0476468020511416,
+                        0.0694189967517346
+                    ],
+                    [
+                        0.0557707610140094,
+                        -0.0305240611145917,
+                        -1.42958647417335e-18
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        1.36713,
+                        0.41398,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        0.86843,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        -0.93166,
+                        -0.09282,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        -0.72459,
+                        -1.27394,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        1.97383,
+                        1.31366,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        1.56769,
+                        -0.18455,
+                        0.88663
+                    ],
+                    [
+                        "H",
+                        1.56769,
+                        -0.18455,
+                        -0.88663
+                    ],
+                    [
+                        "H",
+                        -1.9253,
+                        0.37256,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c2h4o2_methylformate_{fab5d9b0-53b1-55f0-af0f-2de2d253ccce}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{fab5d9b0-53b1-55f0-af0f-2de2d253ccce}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -3.62841077545197,
+                "elec_forces": [
+                    [
+                        -9.00429904249211e-17,
+                        1.15901676191014e-06,
+                        -0.18121412056325
+                    ],
+                    [
+                        -5.20417042793042e-18,
+                        -0.137950357608802,
+                        0.0604045941382809
+                    ],
+                    [
+                        0.119469585440042,
+                        0.06897459929602,
+                        0.0604047632124847
+                    ],
+                    [
+                        -0.119469585440042,
+                        0.06897459929602,
+                        0.0604047632124847
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        0.0,
+                        0.11542
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.93793,
+                        -0.26932
+                    ],
+                    [
+                        "H",
+                        -0.81227,
+                        -0.46896,
+                        -0.26932
+                    ],
+                    [
+                        "H",
+                        0.81227,
+                        -0.46896,
+                        -0.26932
+                    ]
+                ]
+            },
+            "name": "h3n1_ammonia_{6a05f673-cef3-5b24-8b52-138234098fe1}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{6a05f673-cef3-5b24-8b52-138234098fe1}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.57570327123079,
+                "elec_forces": [
+                    [
+                        -7.77560920948531e-18,
+                        1.06702320038066e-16,
+                        -0.266883668321251
+                    ],
+                    [
+                        7.77560920948531e-18,
+                        -1.06702320038066e-16,
+                        0.266883668321251
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        0.60316
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        0.0,
+                        -0.60316
+                    ]
+                ]
+            },
+            "name": "o2_oxygen1_{a3c46047-0ac0-553b-ad0d-f5c1b58a935c}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{a3c46047-0ac0-553b-ad0d-f5c1b58a935c}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -9.26557734703055,
+                "elec_forces": [
+                    [
+                        0.227710053513903,
+                        -0.113563844692494,
+                        7.39002924137282e-17
+                    ],
+                    [
+                        0.0271708150836478,
+                        -0.0595003664276999,
+                        4.2476020147275e-17
+                    ],
+                    [
+                        -0.378341800542396,
+                        0.0890884046668773,
+                        -6.95748597846762e-17
+                    ],
+                    [
+                        0.184055991826883,
+                        -0.049085914531247,
+                        -5.32831111402102e-17
+                    ],
+                    [
+                        -0.0605950598820375,
+                        0.133061720984564,
+                        6.48165836388316e-18
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.42053,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.38648,
+                        1.44677,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        1.15801,
+                        0.11792,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        -1.02794,
+                        -0.44644,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.65404,
+                        -1.34179,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c1h2o2_formicacid_{fd00836c-9a83-50cc-ab18-51958164e203}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{fd00836c-9a83-50cc-ab18-51958164e203}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -12.6103316820218,
+                "elec_forces": [
+                    [
+                        -1.11291435600977e-16,
+                        -0.0785017709715967,
+                        1.83200556557728e-16
+                    ],
+                    [
+                        -0.06798481474222,
+                        -0.039255410938292,
+                        7.50143652030258e-17
+                    ],
+                    [
+                        -0.06798481474222,
+                        0.039255410938292,
+                        7.88510323921393e-17
+                    ],
+                    [
+                        -6.06071595222908e-17,
+                        0.0785017709715973,
+                        3.39618258483691e-17
+                    ],
+                    [
+                        0.0679848147422201,
+                        0.0392554109382923,
+                        -7.31953994915938e-17
+                    ],
+                    [
+                        0.06798481474222,
+                        -0.0392554109382923,
+                        -1.08015805422232e-16
+                    ],
+                    [
+                        -2.18455918233417e-17,
+                        -0.0908352228312023,
+                        3.9015596991536e-18
+                    ],
+                    [
+                        -0.0786655680416972,
+                        -0.0454174402853273,
+                        -1.49492324457571e-16
+                    ],
+                    [
+                        -0.0786655680416972,
+                        0.0454174402853273,
+                        -2.68664301290957e-17
+                    ],
+                    [
+                        4.6095334466232e-18,
+                        0.0908352228312021,
+                        -6.90734689791084e-18
+                    ],
+                    [
+                        0.0786655680416972,
+                        0.0454174402853272,
+                        -5.33515781084999e-17
+                    ],
+                    [
+                        0.0786655680416973,
+                        -0.0454174402853274,
+                        4.28995448064876e-17
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        1.39075,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        1.20443,
+                        0.69537,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        1.20443,
+                        -0.69537,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        -1.39075,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        -1.20443,
+                        -0.69537,
+                        0.0
+                    ],
+                    [
+                        "C",
+                        -1.20443,
+                        0.69537,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        2.47281,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        2.14152,
+                        1.2364,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        2.14152,
+                        -1.2364,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -2.47281,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -2.14152,
+                        -1.2364,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -2.14152,
+                        1.2364,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "c6h6_benzene_{2d0792f5-7a73-5647-b1b8-03c02fdacafd}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{2d0792f5-7a73-5647-b1b8-03c02fdacafd}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -9.55159257739731,
+                "elec_forces": [
+                    [
+                        -0.0640911185042271,
+                        0.117517886363774,
+                        1.44692541953304e-17
+                    ],
+                    [
+                        0.157369404069865,
+                        -0.0579858529920368,
+                        1.60258878996006e-17
+                    ],
+                    [
+                        0.292563481457587,
+                        -0.19989166528482,
+                        3.77851990160021e-17
+                    ],
+                    [
+                        -0.385841767023224,
+                        0.140359631913083,
+                        -6.8280341110933e-17
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "H",
+                        -0.56299,
+                        -1.27444,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        -1.01334,
+                        -0.40539,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        0.547,
+                        0.0
+                    ],
+                    [
+                        "O",
+                        1.08371,
+                        0.08607,
+                        0.0
+                    ]
+                ]
+            },
+            "name": "h1n1o2_nitrousacid_{a0774f6f-b120-58d4-91b7-2715a634cc2c}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{a0774f6f-b120-58d4-91b7-2715a634cc2c}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -5.61121749315291,
+                "elec_forces": [
+                    [
+                        2.95241804094959e-17,
+                        -3.95155931329642e-07,
+                        0.0335694249487314
+                    ],
+                    [
+                        -6.09245387971601e-17,
+                        3.95155930973448e-07,
+                        -0.0335694249487318
+                    ],
+                    [
+                        -3.54144475247023e-17,
+                        -0.0833434500669425,
+                        -0.0336954904512195
+                    ],
+                    [
+                        -1.05929940383623e-17,
+                        0.083343450066943,
+                        0.0336954904512198
+                    ],
+                    [
+                        -0.0721768229730729,
+                        -0.0416718588476001,
+                        0.0336951679784033
+                    ],
+                    [
+                        0.0721768229730729,
+                        -0.0416718588476001,
+                        0.0336951679784033
+                    ],
+                    [
+                        -0.0721768229730724,
+                        0.0416718588476001,
+                        -0.0336951679784032
+                    ],
+                    [
+                        0.0721768229730724,
+                        0.0416718588476001,
+                        -0.0336951679784032
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 0,
+                "coordinates": [
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        0.76357
+                    ],
+                    [
+                        "C",
+                        0.0,
+                        0.0,
+                        -0.76357
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        1.01611,
+                        1.16097
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -1.01611,
+                        -1.16097
+                    ],
+                    [
+                        "H",
+                        0.87998,
+                        0.50806,
+                        -1.16097
+                    ],
+                    [
+                        "H",
+                        -0.87998,
+                        0.50806,
+                        -1.16097
+                    ],
+                    [
+                        "H",
+                        0.87998,
+                        -0.50806,
+                        1.16097
+                    ],
+                    [
+                        "H",
+                        -0.87998,
+                        -0.50806,
+                        1.16097
+                    ]
+                ]
+            },
+            "name": "c2h6_ethane_{854e6391-af24-507f-9bbe-36b07c3a06e0}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{854e6391-af24-507f-9bbe-36b07c3a06e0}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.8244600013106,
+                "elec_forces": [
+                    [
+                        -0.0138114941052127,
+                        0.168957626264143,
+                        0.0387015177822624
+                    ],
+                    [
+                        -0.168903581535839,
+                        0.0353315412330326,
+                        -0.11097811743019
+                    ],
+                    [
+                        0.100877674684543,
+                        -0.00706109277845514,
+                        0.00226001980132372
+                    ],
+                    [
+                        -0.0430300169769434,
+                        -0.110028571073585,
+                        0.0948068266632898
+                    ],
+                    [
+                        -0.0417528199080274,
+                        -0.0540803906881989,
+                        -0.135479958978712
+                    ],
+                    [
+                        0.091187206473964,
+                        0.0960898555983682,
+                        0.0772925315821849
+                    ],
+                    [
+                        0.0754330313675159,
+                        -0.129208968555304,
+                        0.0333971805798412
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.40573,
+                        -0.11979,
+                        -0.03943
+                    ],
+                    [
+                        "N",
+                        -1.38902,
+                        -0.00979,
+                        0.092
+                    ],
+                    [
+                        "H",
+                        0.33927,
+                        -0.10459,
+                        -0.04401
+                    ],
+                    [
+                        "H",
+                        1.69084,
+                        0.6044,
+                        -0.68906
+                    ],
+                    [
+                        "H",
+                        1.67607,
+                        0.22082,
+                        0.87644
+                    ],
+                    [
+                        "H",
+                        -1.96472,
+                        -0.69186,
+                        -0.40802
+                    ],
+                    [
+                        "H",
+                        -1.85848,
+                        0.87833,
+                        -0.10329
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-rel28_{3b1f3f32-509a-5cee-b8fd-4c408a92a355}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{3b1f3f32-509a-5cee-b8fd-4c408a92a355}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.79167935432521,
+                "elec_forces": [
+                    [
+                        0.0655671381270889,
+                        0.118653505041782,
+                        0.128422080985684
+                    ],
+                    [
+                        -0.065599150590659,
+                        0.118578002168714,
+                        -0.128462287845434
+                    ],
+                    [
+                        -6.26394737479347e-08,
+                        -0.00572856926873817,
+                        9.25903589450098e-07
+                    ],
+                    [
+                        -0.0391600849911245,
+                        -0.144719988637012,
+                        0.0116637367706169
+                    ],
+                    [
+                        -0.0517473408901678,
+                        0.0289329065328921,
+                        -0.138380349704921
+                    ],
+                    [
+                        0.0517474516230797,
+                        0.0289980804347602,
+                        0.138362032043131
+                    ],
+                    [
+                        0.0391920493612566,
+                        -0.144713936272398,
+                        -0.0116061381526674
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.39576,
+                        -0.07877,
+                        -0.10897
+                    ],
+                    [
+                        "N",
+                        -1.39574,
+                        -0.07872,
+                        0.109
+                    ],
+                    [
+                        "H",
+                        1e-05,
+                        -0.07874,
+                        2e-05
+                    ],
+                    [
+                        "H",
+                        1.64966,
+                        0.9028,
+                        -0.22108
+                    ],
+                    [
+                        "H",
+                        1.73203,
+                        -0.31205,
+                        0.82524
+                    ],
+                    [
+                        "H",
+                        -1.73202,
+                        -0.31245,
+                        -0.82512
+                    ],
+                    [
+                        "H",
+                        -1.64983,
+                        0.90286,
+                        0.22072
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-bar28_{232fae31-8823-59d0-ab5a-e24591cd4452}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{232fae31-8823-59d0-ab5a-e24591cd4452}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.36390443205405,
+                "elec_forces": [
+                    [
+                        0.134160722994813,
+                        7.66774758109327e-05,
+                        0.000152263867414387
+                    ],
+                    [
+                        -0.190349931662878,
+                        0.000231867070342562,
+                        0.000355061934633547
+                    ],
+                    [
+                        0.0441877877426958,
+                        6.37435304956023e-05,
+                        0.000122625871046308
+                    ],
+                    [
+                        -0.0532682705389318,
+                        0.00509997950241632,
+                        -0.133163540922094
+                    ],
+                    [
+                        0.0577242263764467,
+                        -0.00515722559789908,
+                        0.132042308547856
+                    ],
+                    [
+                        -0.0534122386948559,
+                        -0.117894706775357,
+                        0.0620066606578478
+                    ],
+                    [
+                        -0.0536297197947881,
+                        0.112659635040309,
+                        0.0708958886617174
+                    ],
+                    [
+                        0.0571216872241479,
+                        -0.112016821619929,
+                        -0.0706125853296621
+                    ],
+                    [
+                        0.0574657363533502,
+                        0.11693685137381,
+                        -0.0617986832887596
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.29657,
+                        -5e-05,
+                        -0.0001
+                    ],
+                    [
+                        "N",
+                        -1.30343,
+                        -0.0001,
+                        -0.00014
+                    ],
+                    [
+                        "H",
+                        0.14832,
+                        -0.00099,
+                        -0.0017
+                    ],
+                    [
+                        "H",
+                        1.65907,
+                        -0.03638,
+                        0.94887
+                    ],
+                    [
+                        "H",
+                        -1.69574,
+                        0.03642,
+                        -0.93582
+                    ],
+                    [
+                        "H",
+                        1.6602,
+                        0.83999,
+                        -0.44204
+                    ],
+                    [
+                        "H",
+                        1.66177,
+                        -0.80285,
+                        -0.50544
+                    ],
+                    [
+                        "H",
+                        -1.69167,
+                        0.79348,
+                        0.50011
+                    ],
+                    [
+                        "H",
+                        -1.69398,
+                        -0.82865,
+                        0.4377
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-rel26_{79b684b0-d05c-5ffd-9c09-7e624da2644d}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{79b684b0-d05c-5ffd-9c09-7e624da2644d}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.35849792526687,
+                "elec_forces": [
+                    [
+                        9.9581733791577e-07,
+                        0.170112951886787,
+                        -4.88852360013611e-17
+                    ],
+                    [
+                        -9.95817337508353e-07,
+                        -0.170112951886788,
+                        -9.02733833865743e-17
+                    ],
+                    [
+                        -6.15420258157084e-17,
+                        -4.03160577838735e-16,
+                        1.45554141656179e-17
+                    ],
+                    [
+                        -0.133011122779541,
+                        -0.0551880242985483,
+                        4.98203603751298e-17
+                    ],
+                    [
+                        0.13301112277954,
+                        0.0551880242985484,
+                        -3.43692088677905e-17
+                    ],
+                    [
+                        0.0665051778494364,
+                        -0.055190029206314,
+                        -0.11519077161367
+                    ],
+                    [
+                        0.0665051778494365,
+                        -0.055190029206314,
+                        0.11519077161367
+                    ],
+                    [
+                        -0.0665051778494365,
+                        0.0551900292063142,
+                        -0.115190771613671
+                    ],
+                    [
+                        -0.0665051778494365,
+                        0.0551900292063142,
+                        0.115190771613671
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        1.3,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        -1.3,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.94395,
+                        1.67449,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.94395,
+                        -1.67449,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.47197,
+                        1.6745,
+                        0.81748
+                    ],
+                    [
+                        "H",
+                        -0.47197,
+                        1.6745,
+                        -0.81748
+                    ],
+                    [
+                        "H",
+                        0.47197,
+                        -1.6745,
+                        0.81748
+                    ],
+                    [
+                        "H",
+                        0.47197,
+                        -1.6745,
+                        -0.81748
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-bar26_{4e083497-c7a7-59a9-a3ae-872f07c03cb2}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{4e083497-c7a7-59a9-a3ae-872f07c03cb2}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.34216704652654,
+                "elec_forces": [
+                    [
+                        0.0425509801818053,
+                        0.104635989770904,
+                        0.0838837972546806
+                    ],
+                    [
+                        -0.157975337109437,
+                        0.0314147980342336,
+                        -0.0570105755602167
+                    ],
+                    [
+                        0.0641566018111351,
+                        -0.00804738304075264,
+                        -0.00367513634293545
+                    ],
+                    [
+                        -0.0576551966335716,
+                        0.0254143079255637,
+                        -0.132674852499141
+                    ],
+                    [
+                        -0.0604534535709408,
+                        -0.123195267721753,
+                        0.0536037132761357
+                    ],
+                    [
+                        0.0830441615163767,
+                        0.0882350585603953,
+                        0.0878254996923594
+                    ],
+                    [
+                        0.0863322438046318,
+                        -0.11845750352859,
+                        -0.0319524458208829
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        1.30112,
+                        -0.06402,
+                        -0.05826
+                    ],
+                    [
+                        "O",
+                        -1.29636,
+                        -0.01326,
+                        0.0444
+                    ],
+                    [
+                        "H",
+                        0.2426,
+                        -0.00816,
+                        -0.02325
+                    ],
+                    [
+                        "H",
+                        1.68427,
+                        -0.2582,
+                        0.81276
+                    ],
+                    [
+                        "H",
+                        1.7037,
+                        0.73573,
+                        -0.43322
+                    ],
+                    [
+                        "H",
+                        -1.82344,
+                        -0.59657,
+                        -0.51134
+                    ],
+                    [
+                        "H",
+                        -1.84523,
+                        0.74548,
+                        0.2659
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-rel26_{c95959e8-cdf5-5009-8126-fc44d0a259f3}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{c95959e8-cdf5-5009-8126-fc44d0a259f3}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.32647660515818,
+                "elec_forces": [
+                    [
+                        -0.113724209765342,
+                        0.0913718898954939,
+                        -0.0698104699065396
+                    ],
+                    [
+                        0.113724209765339,
+                        -0.0913718898954903,
+                        -0.0698104699065371
+                    ],
+                    [
+                        -1.8978281403001e-16,
+                        -5.0263612716428e-16,
+                        0.00154167672031258
+                    ],
+                    [
+                        0.11821280860822,
+                        -0.0582414027590451,
+                        -0.0654834445913159
+                    ],
+                    [
+                        -0.00652859897642025,
+                        -0.0611656452554995,
+                        0.134523076137699
+                    ],
+                    [
+                        -0.118212808608218,
+                        0.0582414027590436,
+                        -0.0654834445913157
+                    ],
+                    [
+                        0.00652859897642128,
+                        0.061165645255498,
+                        0.134523076137697
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.3,
+                        0.03999
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.3,
+                        0.03999
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.03999
+                    ],
+                    [
+                        "H",
+                        -0.76207,
+                        1.685,
+                        0.49549
+                    ],
+                    [
+                        "H",
+                        0.06815,
+                        1.70504,
+                        -0.83541
+                    ],
+                    [
+                        "H",
+                        0.76207,
+                        -1.685,
+                        0.49549
+                    ],
+                    [
+                        "H",
+                        -0.06815,
+                        -1.70504,
+                        -0.83541
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-bar26_{eedd4468-71bb-586a-9f04-36aa2abdae21}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{eedd4468-71bb-586a-9f04-36aa2abdae21}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.81482367096336,
+                "elec_forces": [
+                    [
+                        0.0372032552701833,
+                        0.1656667101914,
+                        0.0317668798548591
+                    ],
+                    [
+                        -0.188280044729177,
+                        0.0332940180348462,
+                        -0.109371055231361
+                    ],
+                    [
+                        0.0841429557357443,
+                        -0.0101737438458227,
+                        0.00277293249182718
+                    ],
+                    [
+                        -0.0507683002323219,
+                        -0.104080927871923,
+                        0.098338484508096
+                    ],
+                    [
+                        -0.0478747169805351,
+                        -0.0555045785266834,
+                        -0.133592538691541
+                    ],
+                    [
+                        0.0898279622360166,
+                        0.098859203225658,
+                        0.0747745022439936
+                    ],
+                    [
+                        0.0757488887000904,
+                        -0.128060681207475,
+                        0.0353107948241258
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.30782,
+                        -0.12032,
+                        -0.0362
+                    ],
+                    [
+                        "N",
+                        -1.2865,
+                        -0.00653,
+                        0.09245
+                    ],
+                    [
+                        "H",
+                        0.21459,
+                        -0.07256,
+                        -0.03876
+                    ],
+                    [
+                        "H",
+                        1.63808,
+                        0.56317,
+                        -0.7102
+                    ],
+                    [
+                        "H",
+                        1.61034,
+                        0.22831,
+                        0.86775
+                    ],
+                    [
+                        "H",
+                        -1.85249,
+                        -0.7057,
+                        -0.39295
+                    ],
+                    [
+                        "H",
+                        -1.75974,
+                        0.87467,
+                        -0.11952
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-rel26_{3de19a89-6a3d-5253-9ba3-1ab60afd1e7e}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{3de19a89-6a3d-5253-9ba3-1ab60afd1e7e}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.79859844609103,
+                "elec_forces": [
+                    [
+                        0.106091236067327,
+                        0.117219839620647,
+                        0.112317435231545
+                    ],
+                    [
+                        -0.106134955575308,
+                        0.117107024451388,
+                        -0.112390717084381
+                    ],
+                    [
+                        -1.14795076583884e-06,
+                        -0.00614747746554531,
+                        -3.91494837476147e-07
+                    ],
+                    [
+                        -0.0479079623848992,
+                        -0.142167233982024,
+                        0.0223913117005895
+                    ],
+                    [
+                        -0.0629140544717763,
+                        0.0280218072473305,
+                        -0.135382154744784
+                    ],
+                    [
+                        0.0629335188460674,
+                        0.0281401110202627,
+                        0.135348242773162
+                    ],
+                    [
+                        0.0479333654693552,
+                        -0.142174070892059,
+                        -0.0222837263812932
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.29604,
+                        -0.07714,
+                        -0.10155
+                    ],
+                    [
+                        "N",
+                        -1.29601,
+                        -0.07705,
+                        0.1016
+                    ],
+                    [
+                        "H",
+                        1e-05,
+                        -0.07709,
+                        3e-05
+                    ],
+                    [
+                        "H",
+                        1.59932,
+                        0.87897,
+                        -0.28178
+                    ],
+                    [
+                        "H",
+                        1.6956,
+                        -0.3005,
+                        0.80905
+                    ],
+                    [
+                        "H",
+                        -1.69568,
+                        -0.30121,
+                        -0.80876
+                    ],
+                    [
+                        "H",
+                        -1.59944,
+                        0.87916,
+                        0.28111
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-bar26_{5add63dd-988d-5cb3-99c6-e4dfd90db9f7}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{5add63dd-988d-5cb3-99c6-e4dfd90db9f7}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.82113413267813,
+                "elec_forces": [
+                    [
+                        0.00715025665635029,
+                        0.168383947497723,
+                        0.0340906430784244
+                    ],
+                    [
+                        -0.179053330413045,
+                        0.0328246797649608,
+                        -0.108099870577331
+                    ],
+                    [
+                        0.0944823587794142,
+                        -0.00867628763456789,
+                        0.0027347470137605
+                    ],
+                    [
+                        -0.0467353946233045,
+                        -0.106531256199862,
+                        0.0973695698722961
+                    ],
+                    [
+                        -0.0438243288179065,
+                        -0.0561868142784206,
+                        -0.134298021791941
+                    ],
+                    [
+                        0.0914138018890157,
+                        0.0982726005723991,
+                        0.0739030077585454
+                    ],
+                    [
+                        0.0765666365294759,
+                        -0.128086869722233,
+                        0.0342999246462459
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.35764,
+                        -0.12066,
+                        -0.03659
+                    ],
+                    [
+                        "N",
+                        -1.33698,
+                        -0.00707,
+                        0.09036
+                    ],
+                    [
+                        "H",
+                        0.28065,
+                        -0.09023,
+                        -0.04326
+                    ],
+                    [
+                        "H",
+                        1.66444,
+                        0.57948,
+                        -0.70321
+                    ],
+                    [
+                        "H",
+                        1.63818,
+                        0.23346,
+                        0.87149
+                    ],
+                    [
+                        "H",
+                        -1.91362,
+                        -0.70305,
+                        -0.38808
+                    ],
+                    [
+                        "H",
+                        -1.81426,
+                        0.87447,
+                        -0.11337
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-rel27_{ca635c88-437e-5ab0-bf08-2f76a4f4c3b9}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{ca635c88-437e-5ab0-bf08-2f76a4f4c3b9}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.79619080915477,
+                "elec_forces": [
+                    [
+                        0.0841847822660949,
+                        0.11861479243199,
+                        0.12058234545978
+                    ],
+                    [
+                        -0.0842017492334894,
+                        0.118584250103486,
+                        -0.120598013577537
+                    ],
+                    [
+                        1.82126144815701e-06,
+                        -0.00594537359770424,
+                        9.8704886462446e-07
+                    ],
+                    [
+                        -0.0434464865879639,
+                        -0.143600026475374,
+                        0.0171999703310909
+                    ],
+                    [
+                        -0.0571937207532609,
+                        0.0279590150730155,
+                        -0.137148286325886
+                    ],
+                    [
+                        0.0571906326126097,
+                        0.0279828545826786,
+                        0.137141458188779
+                    ],
+                    [
+                        0.0434647204345613,
+                        -0.143595512118093,
+                        -0.017178461125092
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        1.34589,
+                        -0.07841,
+                        -0.1053
+                    ],
+                    [
+                        "N",
+                        -1.34588,
+                        -0.07839,
+                        0.10532
+                    ],
+                    [
+                        "H",
+                        1e-05,
+                        -0.0784,
+                        1e-05
+                    ],
+                    [
+                        "H",
+                        1.62403,
+                        0.89133,
+                        -0.25283
+                    ],
+                    [
+                        "H",
+                        1.71302,
+                        -0.30328,
+                        0.81886
+                    ],
+                    [
+                        "H",
+                        -1.713,
+                        -0.30343,
+                        -0.81882
+                    ],
+                    [
+                        "H",
+                        -1.62413,
+                        0.89135,
+                        0.25271
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-bar27_{f528e89f-ca4f-54e0-b5c1-9eaaa07331ad}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{f528e89f-ca4f-54e0-b5c1-9eaaa07331ad}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.86179946040044,
+                "elec_forces": [
+                    [
+                        0.0694944706655865,
+                        0.13507048318098,
+                        0.089530737713981
+                    ],
+                    [
+                        0.0261820735347042,
+                        -0.116578990485444,
+                        0.0994215547102508
+                    ],
+                    [
+                        -0.0796809380172138,
+                        -0.00388785365406155,
+                        -0.00408594440172906
+                    ],
+                    [
+                        0.0266171663798171,
+                        -0.129637348534437,
+                        -0.088279623227635
+                    ],
+                    [
+                        -0.042612772562894,
+                        0.115033709492963,
+                        -0.0965867247948677
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        -1.33573,
+                        -0.09378,
+                        -0.04986
+                    ],
+                    [
+                        "O",
+                        1.35772,
+                        0.09366,
+                        -0.06434
+                    ],
+                    [
+                        "H",
+                        -0.29883,
+                        -0.07212,
+                        -0.08891
+                    ],
+                    [
+                        "H",
+                        -1.51036,
+                        0.68723,
+                        0.47648
+                    ],
+                    [
+                        "H",
+                        1.63327,
+                        -0.61411,
+                        0.52606
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-rel27_{c13ea1b6-b7cf-5167-8322-e905930e9596}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{c13ea1b6-b7cf-5167-8322-e905930e9596}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.83901335468332,
+                "elec_forces": [
+                    [
+                        -0.124648432035566,
+                        -0.0172170331780616,
+                        -0.0943366172844235
+                    ],
+                    [
+                        0.124648432035562,
+                        0.0172170331780857,
+                        -0.0943366172844221
+                    ],
+                    [
+                        6.14634211582032e-16,
+                        -2.02255746872826e-14,
+                        0.00964660328843743
+                    ],
+                    [
+                        0.123032209099196,
+                        -0.0212395955903962,
+                        0.0895133156402054
+                    ],
+                    [
+                        -0.123032209099192,
+                        0.0212395955903923,
+                        0.0895133156402027
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.35,
+                        0.05832
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.35,
+                        0.05832
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.05832
+                    ],
+                    [
+                        "H",
+                        -0.77091,
+                        1.50082,
+                        -0.49575
+                    ],
+                    [
+                        "H",
+                        0.77091,
+                        -1.50082,
+                        -0.49575
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-bar27_{43d102ca-f066-5916-ba8c-a48dd37886c2}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{43d102ca-f066-5916-ba8c-a48dd37886c2}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.86061056250371,
+                "elec_forces": [
+                    [
+                        0.0858683073603839,
+                        0.135351922559481,
+                        0.087935502336264
+                    ],
+                    [
+                        0.0215458882519782,
+                        -0.117700957034636,
+                        0.0993883801737083
+                    ],
+                    [
+                        -0.0903625965444656,
+                        -0.00320671773865963,
+                        -0.00217978366780981
+                    ],
+                    [
+                        0.0231358713313302,
+                        -0.130453233647378,
+                        -0.0881574863152968
+                    ],
+                    [
+                        -0.0401874703992267,
+                        0.116008985861192,
+                        -0.0969866125268657
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        -1.3827,
+                        -0.09202,
+                        -0.04907
+                    ],
+                    [
+                        "O",
+                        1.41112,
+                        0.09333,
+                        -0.06435
+                    ],
+                    [
+                        "H",
+                        -0.35998,
+                        -0.08468,
+                        -0.09718
+                    ],
+                    [
+                        "H",
+                        -1.53931,
+                        0.69318,
+                        0.4767
+                    ],
+                    [
+                        "H",
+                        1.67188,
+                        -0.61899,
+                        0.52786
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-rel28_{204c405a-da2f-5119-a606-ab5cce20b9c0}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{204c405a-da2f-5119-a606-ab5cce20b9c0}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.83060369390878,
+                "elec_forces": [
+                    [
+                        -0.125366829294268,
+                        -0.0264735633212929,
+                        -0.0925267484172982
+                    ],
+                    [
+                        0.125366829294264,
+                        0.0264735633213063,
+                        -0.0925267484172969
+                    ],
+                    [
+                        4.37367156380652e-16,
+                        -8.79049437407797e-15,
+                        0.00917713428442853
+                    ],
+                    [
+                        0.123485747510832,
+                        -0.0170000856420038,
+                        0.0879381812750845
+                    ],
+                    [
+                        -0.123485747510828,
+                        0.0170000856419992,
+                        0.0879381812750819
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.4,
+                        0.05776
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.4,
+                        0.05776
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.05776
+                    ],
+                    [
+                        "H",
+                        -0.77958,
+                        1.52865,
+                        -0.49096
+                    ],
+                    [
+                        "H",
+                        0.77958,
+                        -1.52865,
+                        -0.49096
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-bar28_{a98c9859-c374-5109-8e32-f9b7ff0c79b5}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{a98c9859-c374-5109-8e32-f9b7ff0c79b5}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.37402271813845,
+                "elec_forces": [
+                    [
+                        -0.0575818701529095,
+                        6.08104537416254e-06,
+                        -1.17956145997416e-05
+                    ],
+                    [
+                        0.164157576796607,
+                        3.81677268268068e-05,
+                        -3.84664659082645e-05
+                    ],
+                    [
+                        -0.083732217172099,
+                        1.26231563620997e-05,
+                        -1.76886047229897e-05
+                    ],
+                    [
+                        0.0501089267867439,
+                        0.051281842958439,
+                        -0.123293614029757
+                    ],
+                    [
+                        -0.057651635699116,
+                        -0.0515392029567417,
+                        0.123573353612659
+                    ],
+                    [
+                        0.050068531865963,
+                        0.0811333438834088,
+                        0.10607768358091
+                    ],
+                    [
+                        0.0500566782800407,
+                        -0.132433795441399,
+                        0.0172446333735866
+                    ],
+                    [
+                        -0.0577259289766944,
+                        0.132756068815961,
+                        -0.0171451509366862
+                    ],
+                    [
+                        -0.0577000617285357,
+                        -0.0812551291882311,
+                        -0.106388954915482
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        -1.43867,
+                        -1e-05,
+                        1e-05
+                    ],
+                    [
+                        "N",
+                        1.46133,
+                        -2e-05,
+                        2e-05
+                    ],
+                    [
+                        "H",
+                        -0.36053,
+                        -0.00014,
+                        0.00019
+                    ],
+                    [
+                        "H",
+                        -1.7859,
+                        -0.36719,
+                        0.8828
+                    ],
+                    [
+                        "H",
+                        1.85274,
+                        0.35997,
+                        -0.86313
+                    ],
+                    [
+                        "H",
+                        -1.78562,
+                        -0.58093,
+                        -0.75951
+                    ],
+                    [
+                        "H",
+                        -1.78554,
+                        0.94823,
+                        -0.12346
+                    ],
+                    [
+                        "H",
+                        1.85323,
+                        -0.92732,
+                        0.11978
+                    ],
+                    [
+                        "H",
+                        1.85306,
+                        0.56754,
+                        0.74315
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-rel29_{5d924d89-6a84-5da6-b242-7550db7fcdb4}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{5d924d89-6a84-5da6-b242-7550db7fcdb4}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.35337671691399,
+                "elec_forces": [
+                    [
+                        2.08823305434778e-06,
+                        0.129651609470157,
+                        -2.05439371027058e-17
+                    ],
+                    [
+                        -2.08823305245226e-06,
+                        -0.129651609470155,
+                        5.5779025400827e-17
+                    ],
+                    [
+                        9.67447151035972e-17,
+                        -1.09839166841791e-14,
+                        -1.19533289516527e-17
+                    ],
+                    [
+                        -0.134922501469413,
+                        -0.0524963757756686,
+                        4.67803591274341e-17
+                    ],
+                    [
+                        0.134922501469417,
+                        0.0524963757756709,
+                        -2.2952898804697e-17
+                    ],
+                    [
+                        0.0674603918724597,
+                        -0.0524991396087479,
+                        -0.116844032060065
+                    ],
+                    [
+                        0.0674603918724597,
+                        -0.0524991396087479,
+                        0.116844032060065
+                    ],
+                    [
+                        -0.0674603918724627,
+                        0.0524991396087511,
+                        -0.116844032060069
+                    ],
+                    [
+                        -0.0674603918724628,
+                        0.0524991396087511,
+                        0.116844032060069
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        1.45,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        -1.45,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.94966,
+                        1.80592,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.94966,
+                        -1.80592,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.47483,
+                        1.80594,
+                        0.82243
+                    ],
+                    [
+                        "H",
+                        -0.47483,
+                        1.80594,
+                        -0.82243
+                    ],
+                    [
+                        "H",
+                        0.47483,
+                        -1.80594,
+                        0.82243
+                    ],
+                    [
+                        "H",
+                        0.47483,
+                        -1.80594,
+                        -0.82243
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-bar29_{83d9bb62-226f-5dcd-ba77-5c589dcb6df1}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{83d9bb62-226f-5dcd-ba77-5c589dcb6df1}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.3729910411342,
+                "elec_forces": [
+                    [
+                        -0.169860990572004,
+                        0.000415171794122329,
+                        0.000196112236310693
+                    ],
+                    [
+                        0.0759584596000466,
+                        -0.000108374742326001,
+                        -3.37668523204749e-05
+                    ],
+                    [
+                        0.0735230420262656,
+                        -8.48651053043035e-05,
+                        -1.62807080752173e-05
+                    ],
+                    [
+                        0.057903787650748,
+                        -0.0101218388596697,
+                        0.13281632074398
+                    ],
+                    [
+                        -0.0509881138329375,
+                        0.0100770784359154,
+                        -0.133145318095655
+                    ],
+                    [
+                        0.0574176315229787,
+                        -0.110223358446311,
+                        -0.0751612149558547
+                    ],
+                    [
+                        0.0579504892510128,
+                        0.11996971132968,
+                        -0.057835440297419
+                    ],
+                    [
+                        -0.0510738431479332,
+                        -0.120282344347376,
+                        0.0579119392781086
+                    ],
+                    [
+                        -0.0508304624981766,
+                        0.110358819941269,
+                        0.0752676486509256
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        -1.40872,
+                        -0.00016,
+                        -8e-05
+                    ],
+                    [
+                        "N",
+                        1.39128,
+                        -3e-05,
+                        -3e-05
+                    ],
+                    [
+                        "H",
+                        0.29955,
+                        0.00065,
+                        6e-05
+                    ],
+                    [
+                        "H",
+                        -1.80215,
+                        0.0708,
+                        -0.93221
+                    ],
+                    [
+                        "H",
+                        1.74223,
+                        -0.07204,
+                        0.95178
+                    ],
+                    [
+                        "H",
+                        -1.79909,
+                        0.77322,
+                        0.52738
+                    ],
+                    [
+                        "H",
+                        -1.80246,
+                        -0.84213,
+                        0.40582
+                    ],
+                    [
+                        "H",
+                        1.74281,
+                        0.8598,
+                        -0.414
+                    ],
+                    [
+                        "H",
+                        1.74122,
+                        -0.78891,
+                        -0.53809
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-rel28_{9dee67d6-0a16-54f1-b6e0-0ef4fdb8e0d9}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{9dee67d6-0a16-54f1-b6e0-0ef4fdb8e0d9}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.35700469987558,
+                "elec_forces": [
+                    [
+                        6.31881317594931e-07,
+                        0.140071068308642,
+                        -9.3051016178858e-17
+                    ],
+                    [
+                        -6.31881314378791e-07,
+                        -0.140071068308641,
+                        -6.81554473096332e-18
+                    ],
+                    [
+                        -1.58564567726005e-17,
+                        -1.62380959373154e-15,
+                        -1.60326396256294e-17
+                    ],
+                    [
+                        -0.134365943266993,
+                        -0.0532406030921175,
+                        5.40407020348244e-19
+                    ],
+                    [
+                        0.134365943266992,
+                        0.0532406030921166,
+                        1.21400997165223e-17
+                    ],
+                    [
+                        0.0671826724318636,
+                        -0.0532409863948899,
+                        -0.11636532306682
+                    ],
+                    [
+                        0.0671826724318635,
+                        -0.0532409863948899,
+                        0.11636532306682
+                    ],
+                    [
+                        -0.0671826724318648,
+                        0.0532409863948904,
+                        -0.11636532306682
+                    ],
+                    [
+                        -0.0671826724318648,
+                        0.0532409863948904,
+                        0.11636532306682
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        1.4,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        -1.4,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.94807,
+                        1.76148,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.94807,
+                        -1.76148,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.47403,
+                        1.76148,
+                        0.82105
+                    ],
+                    [
+                        "H",
+                        -0.47403,
+                        1.76148,
+                        -0.82105
+                    ],
+                    [
+                        "H",
+                        0.47403,
+                        -1.76148,
+                        0.82105
+                    ],
+                    [
+                        "H",
+                        0.47403,
+                        -1.76148,
+                        -0.82105
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-bar28_{97614263-9776-50ad-a999-1f52ce58d43a}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{97614263-9776-50ad-a999-1f52ce58d43a}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.79743508736145,
+                "elec_forces": [
+                    [
+                        -0.137323331058017,
+                        0.109136425922823,
+                        -0.105239079070391
+                    ],
+                    [
+                        0.136408083027992,
+                        0.11138594900656,
+                        0.103490281423943
+                    ],
+                    [
+                        0.000121239057878638,
+                        -0.0095298931703333,
+                        0.000328518023548026
+                    ],
+                    [
+                        0.0594974251140206,
+                        -0.137702290586314,
+                        -0.0258789577705703
+                    ],
+                    [
+                        0.0667005820002516,
+                        0.0333704426066773,
+                        0.13316721315244
+                    ],
+                    [
+                        -0.065376849218434,
+                        0.0302502257049258,
+                        -0.134587167027983
+                    ],
+                    [
+                        -0.0600271489236912,
+                        -0.136910859484339,
+                        0.0287191912690133
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        -1.24606,
+                        -0.07195,
+                        0.0962
+                    ],
+                    [
+                        "N",
+                        1.24663,
+                        -0.07456,
+                        -0.09483
+                    ],
+                    [
+                        "H",
+                        0.00017,
+                        -0.03282,
+                        -0.00308
+                    ],
+                    [
+                        "H",
+                        -1.62288,
+                        0.85324,
+                        0.29797
+                    ],
+                    [
+                        "H",
+                        -1.66372,
+                        -0.32904,
+                        -0.79698
+                    ],
+                    [
+                        "H",
+                        1.65534,
+                        -0.31056,
+                        0.80816
+                    ],
+                    [
+                        "H",
+                        1.62713,
+                        0.8447,
+                        -0.31566
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-rel25_{d9efcf9f-af36-5361-b12b-8d604bda30b0}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{d9efcf9f-af36-5361-b12b-8d604bda30b0}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -6.79838776684682,
+                "elec_forces": [
+                    [
+                        -0.132465376669671,
+                        0.114284422717321,
+                        -0.103042869102418
+                    ],
+                    [
+                        0.132444818146152,
+                        0.114489536792034,
+                        0.102877314512069
+                    ],
+                    [
+                        2.16351075309727e-06,
+                        -0.0063374076224153,
+                        4.37554778884725e-06
+                    ],
+                    [
+                        0.05266155984551,
+                        -0.140347740409001,
+                        -0.0276760025733473
+                    ],
+                    [
+                        0.069020564731059,
+                        0.0292339929500914,
+                        0.132976900469784
+                    ],
+                    [
+                        -0.0690090181321756,
+                        0.0289700434505485,
+                        -0.133021334376085
+                    ],
+                    [
+                        -0.0526547114316275,
+                        -0.140292847878578,
+                        0.0278816155222077
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "N",
+                        -1.24622,
+                        -0.07479,
+                        0.0972
+                    ],
+                    [
+                        "N",
+                        1.24622,
+                        -0.07499,
+                        -0.0971
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        -0.07489,
+                        5e-05
+                    ],
+                    [
+                        "H",
+                        -1.57632,
+                        0.86503,
+                        0.31
+                    ],
+                    [
+                        "H",
+                        -1.68063,
+                        -0.30383,
+                        -0.79538
+                    ],
+                    [
+                        "H",
+                        1.68061,
+                        -0.30237,
+                        0.796
+                    ],
+                    [
+                        "H",
+                        1.5763,
+                        0.86457,
+                        -0.31138
+                    ]
+                ]
+            },
+            "name": "h5n2_nh2-h-nh2-bar25_{97cfbde8-7ee6-50fc-88ac-83568f7f57fd}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{97cfbde8-7ee6-50fc-88ac-83568f7f57fd}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.34232417934223,
+                "elec_forces": [
+                    [
+                        0.0203545295337493,
+                        0.112361093458888,
+                        0.0782161526538416
+                    ],
+                    [
+                        -0.160318862538565,
+                        0.0209515200611148,
+                        -0.0436871297662542
+                    ],
+                    [
+                        0.077290978545126,
+                        -0.00816871356572776,
+                        -0.00362691244601164
+                    ],
+                    [
+                        -0.0556991495975724,
+                        0.0153591568768524,
+                        -0.134512898149288
+                    ],
+                    [
+                        -0.0580371844506802,
+                        -0.120242243392187,
+                        0.0609148382395822
+                    ],
+                    [
+                        0.0867997803305004,
+                        0.0962877020013965,
+                        0.0763424242204803
+                    ],
+                    [
+                        0.0896099081774414,
+                        -0.116548515440337,
+                        -0.0336464747523505
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        1.35069,
+                        -0.06919,
+                        -0.05293
+                    ],
+                    [
+                        "O",
+                        -1.34714,
+                        -0.00585,
+                        0.0346
+                    ],
+                    [
+                        "H",
+                        0.31223,
+                        -0.0194,
+                        -0.02694
+                    ],
+                    [
+                        "H",
+                        1.72409,
+                        -0.19756,
+                        0.83547
+                    ],
+                    [
+                        "H",
+                        1.7401,
+                        0.71339,
+                        -0.47768
+                    ],
+                    [
+                        "H",
+                        -1.89328,
+                        -0.63476,
+                        -0.44684
+                    ],
+                    [
+                        "H",
+                        -1.91153,
+                        0.73864,
+                        0.26263
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-rel27_{ee6142f7-e673-5f85-ad29-180c333f4053}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{ee6142f7-e673-5f85-ad29-180c333f4053}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.31899390115642,
+                "elec_forces": [
+                    [
+                        -0.126500676007733,
+                        0.0765280763376524,
+                        -0.0633239258483085
+                    ],
+                    [
+                        0.126500676007737,
+                        -0.0765280763376409,
+                        -0.0633239258483083
+                    ],
+                    [
+                        5.83636193844314e-16,
+                        -1.76655565176098e-14,
+                        0.00124412241889852
+                    ],
+                    [
+                        0.115206248865754,
+                        -0.0541813674116821,
+                        -0.0728777999448107
+                    ],
+                    [
+                        0.00899699494119605,
+                        -0.0571800323887487,
+                        0.13557966458367
+                    ],
+                    [
+                        -0.115206248865759,
+                        0.054181367411685,
+                        -0.0728777999448138
+                    ],
+                    [
+                        -0.00899699494119644,
+                        0.057180032388752,
+                        0.135579664583673
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.35,
+                        0.03643
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.35,
+                        0.03643
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.03643
+                    ],
+                    [
+                        "H",
+                        -0.74213,
+                        1.71167,
+                        0.54256
+                    ],
+                    [
+                        "H",
+                        -0.0313,
+                        1.73171,
+                        -0.85223
+                    ],
+                    [
+                        "H",
+                        0.74213,
+                        -1.71167,
+                        0.54256
+                    ],
+                    [
+                        "H",
+                        0.0313,
+                        -1.73171,
+                        -0.85223
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-bar27_{e29dc1fc-c8e3-5a55-a265-a22606c2a10a}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{e29dc1fc-c8e3-5a55-a265-a22606c2a10a}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.86174933492462,
+                "elec_forces": [
+                    [
+                        0.0483683914611033,
+                        0.133853661010922,
+                        0.0911278946169768
+                    ],
+                    [
+                        0.0327265430197546,
+                        -0.115567982050292,
+                        0.0993882379908401
+                    ],
+                    [
+                        -0.0670901222451243,
+                        -0.00440277543133159,
+                        -0.00585680400938736
+                    ],
+                    [
+                        0.0305916686437091,
+                        -0.128314316130596,
+                        -0.088591334112351
+                    ],
+                    [
+                        -0.0445964808794427,
+                        0.114431412601298,
+                        -0.0960679944860785
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        -1.28869,
+                        -0.09552,
+                        -0.05093
+                    ],
+                    [
+                        "O",
+                        1.30435,
+                        0.09414,
+                        -0.06399
+                    ],
+                    [
+                        "H",
+                        -0.23187,
+                        -0.05695,
+                        -0.08198
+                    ],
+                    [
+                        "H",
+                        -1.48435,
+                        0.6791,
+                        0.47782
+                    ],
+                    [
+                        "H",
+                        1.59101,
+                        -0.61109,
+                        0.52347
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-rel26_{e72f7abd-d210-570a-a5db-2f70e643596c}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{e72f7abd-d210-570a-a5db-2f70e643596c}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.84617838793787,
+                "elec_forces": [
+                    [
+                        -0.123783514963254,
+                        -0.00596052931542093,
+                        -0.096079728983001
+                    ],
+                    [
+                        0.123783514963259,
+                        0.00596052931544079,
+                        -0.0960797289830056
+                    ],
+                    [
+                        -5.23127548224256e-16,
+                        -1.81146330574533e-14,
+                        0.0101176773044989
+                    ],
+                    [
+                        0.122499033741722,
+                        -0.0256935198336632,
+                        0.0910208903307522
+                    ],
+                    [
+                        -0.122499033741726,
+                        0.0256935198336615,
+                        0.0910208903307555
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.3,
+                        0.05883
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.3,
+                        0.05883
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.05883
+                    ],
+                    [
+                        "H",
+                        -0.76192,
+                        1.47344,
+                        -0.5001
+                    ],
+                    [
+                        "H",
+                        0.76192,
+                        -1.47344,
+                        -0.5001
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-bar26_{9f4246cf-e84d-5304-875f-4c5024fbb246}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{9f4246cf-e84d-5304-875f-4c5024fbb246}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.37013263507055,
+                "elec_forces": [
+                    [
+                        -0.100201141076984,
+                        -1.9119625371325e-05,
+                        1.84743445436549e-05
+                    ],
+                    [
+                        0.178907559877189,
+                        -0.000173844186715275,
+                        1.95211145288297e-05
+                    ],
+                    [
+                        -0.0614239387108231,
+                        -4.37940048308623e-05,
+                        1.43769365001809e-05
+                    ],
+                    [
+                        0.0520524028643125,
+                        -0.120790785870774,
+                        0.0567968218867204
+                    ],
+                    [
+                        -0.0576190958016524,
+                        0.119763428722678,
+                        -0.0572844976033594
+                    ],
+                    [
+                        0.0519561441169517,
+                        0.0112257808936371,
+                        -0.133044717541918
+                    ],
+                    [
+                        0.0519557007611098,
+                        0.109628827578878,
+                        0.0762175915341714
+                    ],
+                    [
+                        -0.0578517413864099,
+                        -0.109394978409242,
+                        -0.0750327863639762
+                    ],
+                    [
+                        -0.0577758906436936,
+                        -0.0101955150982591,
+                        0.132295215692789
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        -1.34395,
+                        3e-05,
+                        -1e-05
+                    ],
+                    [
+                        "N",
+                        1.35605,
+                        7e-05,
+                        -1e-05
+                    ],
+                    [
+                        "H",
+                        -0.23141,
+                        0.00056,
+                        -0.00018
+                    ],
+                    [
+                        "H",
+                        -1.70012,
+                        0.86169,
+                        -0.40518
+                    ],
+                    [
+                        "H",
+                        1.7477,
+                        -0.84432,
+                        0.40388
+                    ],
+                    [
+                        "H",
+                        -1.69943,
+                        -0.08006,
+                        0.94904
+                    ],
+                    [
+                        "H",
+                        -1.6994,
+                        -0.78198,
+                        -0.54368
+                    ],
+                    [
+                        "H",
+                        1.74924,
+                        0.77144,
+                        0.52905
+                    ],
+                    [
+                        "H",
+                        1.74875,
+                        0.07198,
+                        -0.93282
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-rel27_{5ebffe8a-d747-52d3-aa70-d4d5f2de6b12}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{5ebffe8a-d747-52d3-aa70-d4d5f2de6b12}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.35882045512201,
+                "elec_forces": [
+                    [
+                        4.18285865133981e-07,
+                        0.153553287545895,
+                        -1.09524536453533e-17
+                    ],
+                    [
+                        -4.1828586339219e-07,
+                        -0.153553287545895,
+                        4.49013224130689e-17
+                    ],
+                    [
+                        8.83624770575686e-18,
+                        -3.03435662013518e-15,
+                        -6.33716169817777e-17
+                    ],
+                    [
+                        -0.133680152068586,
+                        -0.0542211843750578,
+                        1.18758254369789e-17
+                    ],
+                    [
+                        0.133680152068586,
+                        0.0542211843750584,
+                        9.9608533498264e-17
+                    ],
+                    [
+                        0.0668398859309095,
+                        -0.0542216643827409,
+                        -0.115771396975697
+                    ],
+                    [
+                        0.0668398859309096,
+                        -0.0542216643827409,
+                        0.115771396975697
+                    ],
+                    [
+                        -0.0668398859309109,
+                        0.0542216643827421,
+                        -0.115771396975699
+                    ],
+                    [
+                        -0.0668398859309107,
+                        0.0542216643827423,
+                        0.115771396975699
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "N",
+                        0.0,
+                        1.35,
+                        0.0
+                    ],
+                    [
+                        "N",
+                        0.0,
+                        -1.35,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        0.94605,
+                        1.71807,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.94605,
+                        -1.71807,
+                        0.0
+                    ],
+                    [
+                        "H",
+                        -0.47302,
+                        1.71807,
+                        0.8193
+                    ],
+                    [
+                        "H",
+                        -0.47302,
+                        1.71807,
+                        -0.8193
+                    ],
+                    [
+                        "H",
+                        0.47302,
+                        -1.71807,
+                        0.8193
+                    ],
+                    [
+                        "H",
+                        0.47302,
+                        -1.71807,
+                        -0.8193
+                    ]
+                ]
+            },
+            "name": "h7n2_nh3-h-nh3-bar27_{ecb89d96-e775-5edb-93da-926f9f9b0532}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{ecb89d96-e775-5edb-93da-926f9f9b0532}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.33988300644706,
+                "elec_forces": [
+                    [
+                        0.0753305325905496,
+                        0.09237272201887,
+                        0.0881489619435645
+                    ],
+                    [
+                        -0.155413731499484,
+                        0.0447229888894062,
+                        -0.0696299016824695
+                    ],
+                    [
+                        0.0456305759283284,
+                        -0.00756796374310243,
+                        -0.00301747576483477
+                    ],
+                    [
+                        -0.0606936724697302,
+                        0.0386200619823771,
+                        -0.128668813564764
+                    ],
+                    [
+                        -0.0645852517901385,
+                        -0.125296430517956,
+                        0.0447336658276801
+                    ],
+                    [
+                        0.077931125374482,
+                        0.077839824701834,
+                        0.100107743249578
+                    ],
+                    [
+                        0.0818004218659928,
+                        -0.120691203331429,
+                        -0.0316741800087545
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        1.25068,
+                        -0.05606,
+                        -0.06308
+                    ],
+                    [
+                        "O",
+                        -1.24636,
+                        -0.02289,
+                        0.0539
+                    ],
+                    [
+                        "H",
+                        0.15688,
+                        0.00506,
+                        -0.0179
+                    ],
+                    [
+                        "H",
+                        1.64976,
+                        -0.33551,
+                        0.77532
+                    ],
+                    [
+                        "H",
+                        1.67704,
+                        0.75516,
+                        -0.37818
+                    ],
+                    [
+                        "H",
+                        -1.74589,
+                        -0.54573,
+                        -0.58348
+                    ],
+                    [
+                        "H",
+                        -1.77232,
+                        0.75261,
+                        0.27766
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-rel25_{c6600fda-3e18-5473-a8cb-0ff071207eb6}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{c6600fda-3e18-5473-a8cb-0ff071207eb6}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.33255243830704,
+                "elec_forces": [
+                    [
+                        -0.100538591972224,
+                        0.10938994713507,
+                        -0.0716809667296436
+                    ],
+                    [
+                        0.100538591972234,
+                        -0.109389947135071,
+                        -0.07168096672965
+                    ],
+                    [
+                        -2.42332738077666e-16,
+                        -1.50541471649612e-14,
+                        0.00177712967353819
+                    ],
+                    [
+                        0.118926313252705,
+                        -0.0628281190890834,
+                        -0.060874234520028
+                    ],
+                    [
+                        -0.0201403335524327,
+                        -0.0653928028224739,
+                        0.131666636412902
+                    ],
+                    [
+                        -0.118926313252714,
+                        0.0628281190890909,
+                        -0.0608742345200307
+                    ],
+                    [
+                        0.0201403335524319,
+                        0.0653928028224817,
+                        0.131666636412912
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.25,
+                        0.04088
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.25,
+                        0.04088
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.04088
+                    ],
+                    [
+                        "H",
+                        -0.76641,
+                        1.66138,
+                        0.46339
+                    ],
+                    [
+                        "H",
+                        0.15403,
+                        1.67966,
+                        -0.81083
+                    ],
+                    [
+                        "H",
+                        0.76641,
+                        -1.66138,
+                        0.46339
+                    ],
+                    [
+                        "H",
+                        -0.15403,
+                        -1.67966,
+                        -0.81083
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-bar25_{02ab9ed9-10c9-50d4-bd06-891631854f53}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{02ab9ed9-10c9-50d4-bd06-891631854f53}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.34110968095495,
+                "elec_forces": [
+                    [
+                        0.00421662931322577,
+                        0.125344091810328,
+                        0.0593939676942507
+                    ],
+                    [
+                        -0.164044892447389,
+                        0.00852440079893756,
+                        -0.0270897346189857
+                    ],
+                    [
+                        0.0880237797415842,
+                        -0.00862225767092326,
+                        -0.00276171064173039
+                    ],
+                    [
+                        -0.0542889932778798,
+                        -0.00775451149164546,
+                        -0.135256116322439
+                    ],
+                    [
+                        -0.0561080431261621,
+                        -0.109230487905833,
+                        0.0792784619884766
+                    ],
+                    [
+                        0.0897502981522727,
+                        0.108222464602397,
+                        0.0556856920090962
+                    ],
+                    [
+                        0.092451221644348,
+                        -0.116483700143261,
+                        -0.0292505601086686
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        1.3999,
+                        -0.07784,
+                        -0.03933
+                    ],
+                    [
+                        "O",
+                        -1.39826,
+                        0.00306,
+                        0.02192
+                    ],
+                    [
+                        "H",
+                        0.37412,
+                        -0.03107,
+                        -0.02394
+                    ],
+                    [
+                        "H",
+                        1.76715,
+                        -0.05303,
+                        0.86135
+                    ],
+                    [
+                        "H",
+                        1.77948,
+                        0.63152,
+                        -0.58618
+                    ],
+                    [
+                        "H",
+                        -1.95823,
+                        -0.69564,
+                        -0.32848
+                    ],
+                    [
+                        "H",
+                        -1.97566,
+                        0.74643,
+                        0.21648
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-rel28_{68cb552d-66d0-522b-bf10-d9b53ae97c21}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{68cb552d-66d0-522b-bf10-d9b53ae97c21}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -8.31075815630423,
+                "elec_forces": [
+                    [
+                        -0.139499356053277,
+                        0.0645694213011236,
+                        -0.0488041767439289
+                    ],
+                    [
+                        0.139499356053285,
+                        -0.0645694213011179,
+                        -0.0488041767439283
+                    ],
+                    [
+                        -1.18453153102188e-15,
+                        -1.79149230172815e-14,
+                        0.000831426109327776
+                    ],
+                    [
+                        0.107495771240202,
+                        -0.0509343413326703,
+                        -0.0852326802681048
+                    ],
+                    [
+                        0.0295000110479753,
+                        -0.0535009995908137,
+                        0.133621143957369
+                    ],
+                    [
+                        -0.107495771240209,
+                        0.0509343413326759,
+                        -0.0852326802681114
+                    ],
+                    [
+                        -0.0295000110479757,
+                        0.0535009995908203,
+                        0.133621143957376
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": 1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.4,
+                        0.02818
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.4,
+                        0.02818
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.02818
+                    ],
+                    [
+                        "H",
+                        -0.68961,
+                        1.74277,
+                        0.61601
+                    ],
+                    [
+                        "H",
+                        -0.16495,
+                        1.75961,
+                        -0.85553
+                    ],
+                    [
+                        "H",
+                        0.68961,
+                        -1.74277,
+                        0.61601
+                    ],
+                    [
+                        "H",
+                        0.16495,
+                        -1.75961,
+                        -0.85553
+                    ]
+                ]
+            },
+            "name": "h5o2_zundelion-bar28_{91d1be71-9738-54f8-8cd7-e2deaef90c9b}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{91d1be71-9738-54f8-8cd7-e2deaef90c9b}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.85943616511287,
+                "elec_forces": [
+                    [
+                        0.0183006433793678,
+                        0.130357702614679,
+                        0.0936524983171956
+                    ],
+                    [
+                        0.0401501272499171,
+                        -0.115091907836743,
+                        0.0995850031310525
+                    ],
+                    [
+                        -0.0480606374861715,
+                        -0.00399790915873163,
+                        -0.00799686699259928
+                    ],
+                    [
+                        0.0355334335219611,
+                        -0.125738200245623,
+                        -0.0896668955357169
+                    ],
+                    [
+                        -0.0459235666650746,
+                        0.114470314626419,
+                        -0.0955737389199319
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        -1.2419,
+                        -0.09686,
+                        -0.05305
+                    ],
+                    [
+                        "O",
+                        1.25072,
+                        0.09478,
+                        -0.06318
+                    ],
+                    [
+                        "H",
+                        -0.1485,
+                        -0.03784,
+                        -0.07382
+                    ],
+                    [
+                        "H",
+                        -1.4648,
+                        0.66514,
+                        0.48354
+                    ],
+                    [
+                        "H",
+                        1.5427,
+                        -0.61065,
+                        0.52013
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-rel25_{22c37953-1450-5193-b01e-ce3b41cc57a0}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{22c37953-1450-5193-b01e-ce3b41cc57a0}"
+        },
+        {
+            "elec_data": {
+                "elec_energy": -7.85199180921494,
+                "elec_forces": [
+                    [
+                        -0.12309167605758,
+                        0.00814410529978782,
+                        -0.0973515654252542
+                    ],
+                    [
+                        0.123091676057535,
+                        -0.00814410529975991,
+                        -0.0973515654252267
+                    ],
+                    [
+                        2.87888202860076e-15,
+                        -8.28373827865825e-15,
+                        0.0105141643319035
+                    ],
+                    [
+                        0.122228613026909,
+                        -0.0306169329118466,
+                        0.0920944832593044
+                    ],
+                    [
+                        -0.122228613026866,
+                        0.0306169329118269,
+                        0.092094483259273
+                    ]
+                ]
+            },
+            "geometry": {
+                "charge": -1,
+                "coordinates": [
+                    [
+                        "O",
+                        0.0,
+                        1.25,
+                        0.05899
+                    ],
+                    [
+                        "O",
+                        0.0,
+                        -1.25,
+                        0.05899
+                    ],
+                    [
+                        "H",
+                        0.0,
+                        0.0,
+                        0.05899
+                    ],
+                    [
+                        "H",
+                        -0.75382,
+                        1.44765,
+                        -0.50143
+                    ],
+                    [
+                        "H",
+                        0.75382,
+                        -1.44765,
+                        -0.50143
+                    ]
+                ]
+            },
+            "name": "h3o2_water-ohM-bar25_{99236b68-f91b-5ee8-8974-cd50db6d982a}",
+            "template_input": "dftbinp/molecule_energy.hsd",
+            "uuid": "{99236b68-f91b-5ee8-8974-cd50db6d982a}"
+        }
+    ]
+}
